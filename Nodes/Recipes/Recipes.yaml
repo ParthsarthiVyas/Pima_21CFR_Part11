@@ -1,0 +1,164 @@
+Name: Recipes
+Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema1
+  Id: g=8d7ae62e41d078cf38fc6258b0291164
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: Data1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data2
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data3
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: data4
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data5
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data6
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data7
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data8
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data9
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data10
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+  - Class: Reference
+    Target: ns=23;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Pima_21CFR_Part11/DataStores/Recipe_DB"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TableName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Recipe"
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Pima_21CFR_Part11/Model/Recipe/Recipe"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Pima_21CFR_Part11/Model/Recipe"
+    - Name: NodeClass
+      Type: PropertyType
+      DataType: NodePointerNodeClass
+      Value: 2
+  - Name: EditModel
+    Id: g=34d64b568b62f9c828311c28939d2943
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: Data1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data2
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data3
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: data4
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data5
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data6
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data7
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data8
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data9
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Data10
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0

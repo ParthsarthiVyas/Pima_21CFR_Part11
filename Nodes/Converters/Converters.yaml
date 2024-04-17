@@ -1,0 +1,13 @@
+Name: Converters
+Type: ConvertersCategoryFolder
+Children:
+- Name: ConditionalConverter1
+  Id: g=552e8f19179c62781fec03a70cf32fe2
+  Supertype: ConditionalConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Condition
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasSource
+    Value: false

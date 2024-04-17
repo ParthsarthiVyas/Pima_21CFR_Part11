@@ -1,0 +1,46 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: mm_dd_yyyy_clock1
+  Type: NetLogic
+  Children:
+  - Name: datetime
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: date
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: time
+    Type: BaseDataVariableType
+    DataType: TimeString
+    Value: "0"
+  - Name: day
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: month
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: year
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: hour
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: minute
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: second
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: yy
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0

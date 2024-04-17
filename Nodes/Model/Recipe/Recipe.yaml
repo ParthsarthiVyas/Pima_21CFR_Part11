@@ -1,0 +1,15 @@
+Name: Recipe
+Id: g=43a6947e30984725e0bea2bd31f88013
+Type: FolderType
+Children:
+- Name: Recipe
+  Id: g=a3666139eec2c39e246299795f03a935
+  Type: BaseObjectType
+  Children:
+  - Name: Variable1
+    Id: g=5651d89ff7d5284c0536fd2eae90028e
+    Type: BaseDataVariableType
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [10]
+    Value: [0,0,0,0,0,0,0,0,0,0]

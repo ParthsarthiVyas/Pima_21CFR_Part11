@@ -1,0 +1,19 @@
+Name: Roles
+Id: g=168315c4ba704e70bb13e35de715eb03
+Type: RolesCategoryFolder
+Children:
+- Name: Administrator
+  Id: g=7558c49b005590683f14f3384a59980b
+  Type: ns=1;RoleType
+- Name: Engineer
+  Id: g=05919f04a3c056920d5afc54e5e69585
+  Type: ns=1;RoleType
+- Name: Manager
+  Id: g=427b3b0988dfc9361a1b7b652f23ed05
+  Type: ns=1;RoleType
+- Name: Supervisor
+  Id: g=97a867b8644189699d00b585d775b4c5
+  Type: ns=1;RoleType
+- Name: Operator
+  Id: g=cc417a74a2205e410520a2b5cd7a6711
+  Type: ns=1;RoleType

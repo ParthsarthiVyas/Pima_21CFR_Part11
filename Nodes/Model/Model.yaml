@@ -1,0 +1,11 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: AutoLogOutTrigger
+  Id: g=7e384c2265cd52ff23e673ad662d9b6a
+  Type: BaseDataVariableType
+  DataType: Int32
+  WriteMask: ArrayDimensions|BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel|ValueRank|ValueForVariableType
+  Value: 0
+- File: Retain_Variable/Retain_Variable.yaml
+- File: Recipe/Recipe.yaml
