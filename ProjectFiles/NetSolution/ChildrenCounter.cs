@@ -18,6 +18,7 @@ using FTOptix.AuditSigning;
 using FTOptix.CommunicationDriver;
 using FTOptix.Core;
 using FTOptix.System;
+using FTOptix.Alarm;
 #endregion
 
 public class ChildrenCounter : BaseNetLogic

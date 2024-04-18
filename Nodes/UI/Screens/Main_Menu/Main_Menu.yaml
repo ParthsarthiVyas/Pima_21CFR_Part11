@@ -1780,7 +1780,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                  Value: "/Objects/Pima_21CFR_Part11/UI/Screens/Recipe/Recipe_scree1"
+                  Value: "/Objects/Pima_21CFR_Part11/UI/Screens/Recipe/Recipe_Control"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId

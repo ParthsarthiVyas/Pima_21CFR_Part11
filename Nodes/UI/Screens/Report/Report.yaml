@@ -291,7 +291,7 @@ Children:
     - Name: Model
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/Pima_21CFR_Part11/UI/SigningWorkflows/SigningEventLogger"
+      Value: {"IdType":2,"Id":"cbb80890164b8cc4a2ab80bea21ebbb2","Namespace":33}
       Children:
       - Name: ItemKind
         Type: PropertyType

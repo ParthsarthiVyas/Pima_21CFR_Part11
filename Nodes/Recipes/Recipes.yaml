@@ -1,57 +1,29 @@
 Name: Recipes
 Type: RecipesCategoryFolder
 Children:
-- Name: RecipeSchema1
-  Id: g=8d7ae62e41d078cf38fc6258b0291164
+- Name: Recipe_1
+  Id: g=9737d9aa8376893fe31f9cd2696232b6
   Type: RecipeSchema
   Children:
   - Name: Root
     Type: BaseObjectType
     Children:
-    - Name: RecipeName
+    - Name: RecSetSpeed
+      Type: BaseDataVariableType
+      DataType: Int16
+      Value: 0
+    - Name: RecSetTemp
+      Type: BaseDataVariableType
+      DataType: UInt32
+      Value: 0
+    - Name: RecSpeedFactor
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: RecProdName
       Type: BaseDataVariableType
       DataType: String
       Value: ""
-    - Name: Data1
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data2
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data3
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: data4
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data5
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data6
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data7
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data8
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data9
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data10
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
   - Class: Reference
     Target: ns=23;i=27
     Direction: Forward
@@ -91,7 +63,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Pima_21CFR_Part11/DataStores/Recipe_DB"
+    Value: "/Objects/Pima_21CFR_Part11/DataStores/Recipe_Db"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -110,55 +82,23 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: "/Objects/Pima_21CFR_Part11/Model/Recipe"
-    - Name: NodeClass
-      Type: PropertyType
-      DataType: NodePointerNodeClass
-      Value: 2
   - Name: EditModel
-    Id: g=34d64b568b62f9c828311c28939d2943
+    Id: g=387504edf076a0d2be96fa4fad69d485
     Type: BaseObjectType
     Children:
-    - Name: RecipeName
+    - Name: RecSetSpeed
+      Type: BaseDataVariableType
+      DataType: Int16
+      Value: 0
+    - Name: RecSetTemp
+      Type: BaseDataVariableType
+      DataType: UInt32
+      Value: 0
+    - Name: RecSpeedFactor
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: RecProdName
       Type: BaseDataVariableType
       DataType: String
       Value: ""
-    - Name: Data1
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data2
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data3
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: data4
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data5
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data6
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data7
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data8
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data9
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0
-    - Name: Data10
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 0

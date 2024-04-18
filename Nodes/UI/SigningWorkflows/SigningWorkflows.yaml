@@ -6,6 +6,8 @@ Children:
   Supertype: Dialog
   ReferenceType: HasComponent
   Children:
+  - Class: Reference
+    Target: ns=5;i=519
   - Name: Width
     Type: BaseVariableType
     DataType: Size
@@ -144,6 +146,8 @@ Children:
         Type: PropertyType
         DataType: NodeId
         Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+    - Class: Reference
+      Target: ns=5;i=478
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -195,12 +199,12 @@ Children:
   - Name: Users
     Type: Alias
     DataType: NodeId
-    Value: "/Objects/Pima_21CFR_Part11/Security/Users"
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: "/Types/ObjectTypes/BaseObjectType/FolderType/CategoryFolder/UsersCategoryFolder"
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: ConfirmWorkflowPanel
   Id: g=30221b5fae81111f5c1f63984869a65b
   Supertype: Panel
@@ -255,12 +259,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 289.0
+      Value: 110.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 140.0
+      Value: 250.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -344,6 +348,7 @@ Children:
             - Name: SignResult
               Type: BaseDataVariableType
               DataType: Int32
+              Description: {"NamespaceIndex":15,"TextId":"SignResultDescription"}
               Value: 0
         - Name: MethodContainer2
           Type: BaseObjectType
@@ -548,17 +553,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 101.0
+      Value: 170.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 145.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 15.0
   - Name: Title
     Type: Label
     Children:
@@ -975,6 +975,7 @@ Children:
             - Name: SignResult
               Type: BaseDataVariableType
               DataType: Int32
+              Description: {"NamespaceIndex":15,"TextId":"SignResultDescription"}
               Value: 0
         - Name: MethodContainer2
           Type: BaseObjectType
@@ -1393,6 +1394,8 @@ Children:
       Type: BaseDataVariableType
       DataType: BaseDataType
       AccessLevel: Read
+    - Class: Reference
+      Target: ns=5;i=480
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -1809,6 +1812,7 @@ Children:
             - Name: SignResult
               Type: BaseDataVariableType
               DataType: Int32
+              Description: {"NamespaceIndex":15,"TextId":"SignResultDescription"}
               Value: 0
         - Name: MethodContainer2
           Type: BaseObjectType
@@ -2287,6 +2291,8 @@ Children:
       Type: BaseDataVariableType
       DataType: BaseDataType
       AccessLevel: Read
+    - Class: Reference
+      Target: ns=5;i=480
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -2409,6 +2415,8 @@ Children:
       Type: BaseDataVariableType
       DataType: BaseDataType
       AccessLevel: Read
+    - Class: Reference
+      Target: ns=5;i=480
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -2794,6 +2802,8 @@ Children:
   Supertype: Dialog
   ReferenceType: HasComponent
   Children:
+  - Class: Reference
+    Target: ns=5;i=519
   - Name: Width
     Type: BaseVariableType
     DataType: Size
@@ -3108,6 +3118,14 @@ Children:
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/ObjectTypes/BaseObjectType/GroupType"
+  - Class: Reference
+    Target: ns=15;i=41
+  - Class: Reference
+    Target: ns=15;i=44
+  - Class: Reference
+    Target: ns=15;i=47
+  - Class: Reference
+    Target: ns=15;i=50
   - Name: WorkflowStartedEventHandler
     Type: EventHandler
     Children:
@@ -3149,15 +3167,18 @@ Children:
           - Name: Dialog
             Type: BaseDataVariableType
             DataType: NodeId
+            Description: {"NamespaceIndex":34,"TextId":"OpenDialogDialogDescription"}
             Value: "/Objects/Pima_21CFR_Part11/UI/SigningWorkflows/AuditDialogBox"
           - Name: AliasNode
             Type: BaseDataVariableType
             DataType: NodeId
+            Description: {"NamespaceIndex":34,"TextId":"OpenDialogAliasNodeDescription"}
             ValueRank: ScalarOrOneDimension
             Value: "/Objects/Pima_21CFR_Part11/UI/SigningWorkflows/SigningController"
           - Name: Item
             Type: BaseDataVariableType
             DataType: NodeId
+            Description: {"NamespaceIndex":34,"TextId":"OpenDialogItemDescription"}
             Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: DynamicLink
@@ -3175,6 +3196,7 @@ Children:
           - Name: DialogNodeId
             Type: BaseDataVariableType
             DataType: NodeId
+            Description: {"NamespaceIndex":34,"TextId":"OpenDialogDialogNodeIdDescription"}
             Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: EventArguments
       Type: WorkflowStartedEvent
@@ -3228,7 +3250,6 @@ Children:
     DataType: WorkflowType
     Value: 0
 - Name: SigningEventLogger
-  Id: g=cbb80890164b8cc4a2ab80bea21ebbb2
   Type: EventLogger
   Children:
   - Name: Enabled
@@ -3280,10 +3301,26 @@ Children:
       Type: EventFieldPath
       DataType: NodePath
       Value: "/0:ActionTimeStamp"
+    - Name: NewValue
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/0:NewValue"
+    - Name: OldValue
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/0:OldValue"
     - Name: ClientUserNote
       Type: EventFieldPath
       DataType: NodePath
       Value: "/15:ClientUserNote"
+    - Name: SignResult
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/15:SignResult"
+    - Name: WorkflowType
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/15:WorkflowType"
     - Name: SourceName
       Type: EventFieldPath
       DataType: NodePath
@@ -3296,34 +3333,26 @@ Children:
       Type: EventFieldPath
       DataType: NodePath
       Value: "/0:ClientUserId"
-    - Name: Message
-      Type: EventFieldPath
-      DataType: NodePath
-      Value: "/0:Message"
-    - Name: SecondClientUserId
-      Type: EventFieldPath
-      DataType: NodePath
-      Value: "/15:SecondClientUserId"
-    - Name: WorkflowType
-      Type: EventFieldPath
-      DataType: NodePath
-      Value: "/15:WorkflowType"
-    - Name: SignResult
-      Type: EventFieldPath
-      DataType: NodePath
-      Value: "/15:SignResult"
     - Name: EventType
       Type: EventFieldPath
       DataType: NodePath
       Value: "/0:EventType"
-    - Name: NewValue
+    - Name: LocalTime
       Type: EventFieldPath
       DataType: NodePath
-      Value: "/0:NewValue"
-    - Name: OldValue
+      Value: "/0:LocalTime"
+    - Name: Time
       Type: EventFieldPath
       DataType: NodePath
-      Value: "/0:OldValue"
+      Value: "/0:Time"
+    - Name: SecondClientUserId
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/15:SecondClientUserId"
+    - Name: Message
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/0:Message"
   - Name: EventArguments
     Type: BaseObjectType
     Children:
@@ -3335,10 +3364,24 @@ Children:
       Type: BaseDataVariableType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
+    - Name: NewValue
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+    - Name: OldValue
+      Type: BaseDataVariableType
+      DataType: BaseDataType
     - Name: ClientUserNote
       Type: BaseDataVariableType
       DataType: String
       Value: ""
+    - Name: SignResult
+      Type: BaseDataVariableType
+      DataType: SignResult
+      Value: 0
+    - Name: WorkflowType
+      Type: BaseDataVariableType
+      DataType: WorkflowType
+      Value: 0
     - Name: SourceName
       Type: BaseDataVariableType
       DataType: String
@@ -3351,44 +3394,59 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: ""
-    - Name: Message
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-    - Name: SecondClientUserId
-      Type: BaseDataVariableType
-      DataType: String
-      Value: ""
-    - Name: WorkflowType
-      Type: BaseDataVariableType
-      DataType: WorkflowType
-      Value: 0
-    - Name: SignResult
-      Type: BaseDataVariableType
-      DataType: SignResult
-      Value: 0
     - Name: EventType
       Type: BaseDataVariableType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
-    - Name: NewValue
+    - Name: LocalTime
       Type: BaseDataVariableType
-      DataType: BaseDataType
-    - Name: OldValue
+      DataType: TimeZoneDataType
+    - Name: Time
       Type: BaseDataVariableType
-      DataType: BaseDataType
+      DataType: UtcTime
+      Value: "1601-01-01T00:00:00.0000000"
+    - Name: SecondClientUserId
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: Message
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: EventFieldsToLog
     Type: BaseObjectType
     Children:
-    - Name: ActionTimeStamp
+    - Name: LocalTimeStemp
       Type: EventFieldToLog
       DataType: DateTime
       Value: "1601-01-01T00:00:00.0000000"
       Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../EventArguments/ActionTimeStamp"
+      - Name: ExpressionEvaluator1
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Expression
+          Type: BaseDataVariableType
+          DataType: String
+          ReferenceType: HasParameter
+          Value: "{0}+{1}"
+        - Name: ns=3;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../EventArguments/Time"
+        - Name: ns=3;Source1
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../EventArguments/LocalTime"
     - Name: SourceName
       Type: EventFieldToLog
       DataType: String
@@ -3400,8 +3458,35 @@ Children:
         Value: "../../EventArguments/SourceName"
     - Name: Message
       Type: EventFieldToLog
-      DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Value Changed"}
+      DataType: String
+      Value: ""
+      Children:
+      - Name: StringFormatter1
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          Value: {"LocaleId":"en-US","Text":"Value changed from {0} to {1}"}
+        - Name: ns=3;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../EventArguments/OldValue"
+        - Name: ns=3;Source1
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../EventArguments/NewValue"
     - Name: WorkflowType
       Type: EventFieldToLog
       DataType: String
@@ -3552,24 +3637,6 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               Value: "Second user not authorized"
-    - Name: NewValue
-      Type: EventFieldToLog
-      DataType: String
-      Value: ""
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../EventArguments/NewValue"
-    - Name: OldValue
-      Type: EventFieldToLog
-      DataType: String
-      Value: ""
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../EventArguments/OldValue"
     - Name: ClientUserId
       Type: EventFieldToLog
       DataType: String
@@ -3588,15 +3655,6 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/ClientUserNote"
-    - Name: EventType
-      Type: EventFieldToLog
-      DataType: String
-      Value: ""
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../EventArguments/EventType@Pointer@BrowseName"
     - Name: SecondClientUserId
       Type: EventFieldToLog
       DataType: String
@@ -3615,3 +3673,12 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/SecondClientUserNote"
+    - Name: EventType
+      Type: EventFieldToLog
+      DataType: String
+      Value: ""
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/EventType@Pointer@BrowseName"

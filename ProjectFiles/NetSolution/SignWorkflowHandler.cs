@@ -13,13 +13,6 @@ using FTOptix.CoreBase;
 using FTOptix.Core;
 using FTOptix.NetLogic;
 using FTOptix.AuditSigning;
-using FTOptix.ODBCStore;
-using FTOptix.OPCUAClient;
-using FTOptix.OPCUAServer;
-using FTOptix.MelsecFX3U;
-using FTOptix.MicroController;
-using FTOptix.Alarm;
-using FTOptix.System;
 
 #endregion
 
@@ -40,7 +33,7 @@ public class SignWorkflowHandler : BaseNetLogic
     [ExportMethod]
     public void CheckResult(SignResult signResult)
     {
-        switch (signResult)
+        switch(signResult)
         {
             case SignResult.Succeeded:
                 {

@@ -13,10 +13,12 @@ using FTOptix.CoreBase;
 using FTOptix.Core;
 using FTOptix.NetLogic;
 using FTOptix.AuditSigning;
+using FTOptix.Alarm;
+using FTOptix.WebUI;
 
 #endregion
 
-public class DoubleSignWorkflowHandler : BaseNetLogic
+public class DoubleSignWorkflowHandler1 : BaseNetLogic
 {
     private Button _confirmButton;
 

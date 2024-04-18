@@ -3,13 +3,65 @@ Id: g=43a6947e30984725e0bea2bd31f88013
 Type: FolderType
 Children:
 - Name: Recipe
-  Id: g=a3666139eec2c39e246299795f03a935
+  Id: g=60132e63472d013120676e1469a244c1
   Type: BaseObjectType
   Children:
-  - Name: Variable1
-    Id: g=5651d89ff7d5284c0536fd2eae90028e
+  - Name: RecSetSpeed
+    Id: g=7766213ebf81fa01c787589289f1850c
     Type: BaseDataVariableType
-    DataType: Int32
-    ValueRank: OneDimension
-    ArrayDimensions: [10]
-    Value: [0,0,0,0,0,0,0,0,0,0]
+    DataType: Int16
+    Value: 0
+  - Name: RecSetTemp
+    Id: g=c5a007fb583dad393e0e34e45664092b
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+    Children:
+    - Name: AuditSigning Signature
+      Id: g=8c8548c4b93e63beb69a534fa729bc08
+      Type: AuditInfo
+      ReferenceType: NonHierarchicalOwning
+      Children:
+      - Name: Users
+        Id: g=4da244ca7aca80b03e7d99551c309132
+        Type: BaseObjectType
+      - Name: Groups
+        Id: g=24de67cd0bf11250cf12e2bbc14d011a
+        Type: BaseObjectType
+      - Name: WorkflowType
+        Id: g=96936bd0fbda3a73f45a4704e928e4f8
+        Type: PropertyType
+        DataType: WorkflowType
+        Value: 0
+  - Name: RecSpeedFactor
+    Id: g=2d0950fad6821b0deec96168c93da3e9
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: RecProdName
+    Id: g=719bd911421c3d028070518f91838f18
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: RecipeExportImportPath
+    Id: g=e896472094a667f48eb3bd07622373a5
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+    Children:
+    - Name: AuditSigning Signature
+      Id: g=63bc59ed3f23525fa5eae44983316ea1
+      Type: AuditInfo
+      ReferenceType: NonHierarchicalOwning
+      Children:
+      - Name: Users
+        Id: g=52a7050b741fb7424f67c860f55b5878
+        Type: BaseObjectType
+      - Name: Groups
+        Id: g=806845da2daa742b9e63273cd1b4c8e7
+        Type: BaseObjectType
+      - Name: WorkflowType
+        Id: g=b921404e6665dfa1d6c2e235bc2ec29e
+        Type: PropertyType
+        DataType: WorkflowType
+        Value: 0

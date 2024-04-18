@@ -108,12 +108,12 @@ Children:
 - File: System/System.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
-- Name: RecipeSchema1
+- Name: Recipe_1
   Type: Alias
   DataType: NodeId
-  Value: "/Objects/Pima_21CFR_Part11/Recipes/RecipeSchema1/EditModel"
+  Value: "/Objects/Pima_21CFR_Part11/Recipes/Recipe_1/EditModel"
   Children:
   - Name: Kind
     Type: PropertyType
     DataType: NodeId
-    Value: "/Objects/Pima_21CFR_Part11/Recipes/RecipeSchema1/EditModel"
+    Value: "/Objects/Pima_21CFR_Part11/Recipes/Recipe_1/EditModel"
