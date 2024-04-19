@@ -352,22 +352,6 @@ Children:
                 AccessLevel: Read
               - Name: UserList
                 Type: BaseObjectType
-              - Name: ChildrenCounter
-                Type: NetLogic
-                Children:
-                - Name: Count
-                  Type: BaseDataVariableType
-                  DataType: Int32
-                  Value: 0
-                - Name: Node
-                  Type: BaseDataVariableType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "{Users}@NodeId"
               - Name: Query
                 Type: BaseDataVariableType
                 DataType: String

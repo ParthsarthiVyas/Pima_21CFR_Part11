@@ -7,11 +7,12 @@ using OpcUa = UAManagedCore.OpcUa;
 using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.Recipe;
+using FTOptix.AuditSigning;
+using FTOptix.Alarm;
+using FTOptix.WebUI;
+using FTOptix.System;
 using System.Collections.Generic;
 using System.Text;
-using FTOptix.MicroController;
-using FTOptix.Alarm;
-using FTOptix.System;
 #endregion
 
 public class CreateUserPanelLogic : BaseNetLogic
@@ -105,6 +106,29 @@ public class CreateUserPanelLogic : BaseNetLogic
 
 		}
 
+
+
+		//var UserList = LogicObject.Owner.Owner.Owner.Children["UsersList"].Children["UserList"];
+		//var _LogicObject = LogicObject.Owner.Owner.Owner.Children["UsersList"].Children["ChildrenCounter"];
+
+		////Clean files list
+
+
+		//UserList.Children.ToList().ForEach((entry) => entry.Delete());
+
+		//var UserDetails = _LogicObject.GetAlias("Users");
+
+		//foreach (var child in UserDetails.Children.OfType<User_21CFR>())
+		//{
+		//	if (child.BrowseName != "Pima")
+		//	{
+
+		//		var User = InformationModel.MakeObject<User_21CFR>(child.BrowseName);
+		//		UserList.Add(InformationModel.Get<User_21CFR>(child.NodeId));
+		//	}
+		//}
+
+
 		return user.NodeId;
 	}
 
@@ -126,9 +150,8 @@ public class CreateUserPanelLogic : BaseNetLogic
 			return;
 
 		var groupCheckBoxes = panel.Refs.GetObjects(OpcUa.ReferenceTypes.HasOrderedComponent, false);
-		//string usergroupname = "";
-		List <string> usergroupname = new List<string>();
-
+		// string usergroupname = "";
+        List<string> usergroupname = new List<string>();
 
         foreach (var groupCheckBoxNode in groupCheckBoxes)
 		{
@@ -149,8 +172,8 @@ public class CreateUserPanelLogic : BaseNetLogic
 			if (groupCheckBoxNode.GetVariable("Checked").Value)
 			{
 				//usergroupname = usergroupname + group.BrowseName + ",";
-				usergroupname.Add(group.BrowseName);
-			}
+                usergroupname.Add(group.BrowseName);
+            }
 		}
 
 		//-----------Customized Logic Start-----------------
@@ -158,30 +181,40 @@ public class CreateUserPanelLogic : BaseNetLogic
 		string[] crUGroupName = Project.Current.GetVariable("UI/UserObjects/UserGroups/UserGroupName").Value;
 		int cnt2 = crNoOfGroups;
 		int first = 0;
-		StringBuilder usergroup = new StringBuilder("");
-
-		foreach (var group in usergroupname)
-		{
-			if (first == 0)
-			{
-				usergroup.Append(group);
-			}
-			else if (first > 0)
-			{
-                usergroup.Append("," +group);
+        StringBuilder usergroup = new StringBuilder("");
+        /* while (cnt2 > 0)
+         {
+             if (usergroupname.Contains(crUGroupName[cnt2-1]))
+             {
+                 usergroupname = crUGroupName[cnt2-1];
+                 break;
+             }
+             else if (cnt2 == 1)
+             {
+                 usergroupname = "not assigned";
+                 break;
+             }
+             cnt2 -= 1;
+         }
+         */
+        foreach (var group in usergroupname)
+        {
+            if (first == 0)
+            {
+                usergroup.Append(group);
+            }
+            else if (first > 0)
+            {
+                usergroup.Append("," + group);
 
             }
 
-			first++;
+            first++;
 
 
-		}
-		
-
-        
-		
-		// User Group Change Activity Logging into Audit Database
-		AuditTrailLogging UserCreateGroup = new AuditTrailLogging();
+        }
+        // User Group Change Activity Logging into Audit Database
+        AuditTrailLogging UserCreateGroup = new AuditTrailLogging();
 		UserCreateGroup.LogIntoAudit("New user created", "'" + user.BrowseName + "'" + " with '" + usergroup + "' group", Session.User.BrowseName, "UserCreateEvent");
 
 		//-----------Customized Logic End-------------------

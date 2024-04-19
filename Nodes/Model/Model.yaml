@@ -9,3 +9,5 @@ Children:
   Value: 0
 - File: Retain_Variable/Retain_Variable.yaml
 - File: Recipe/Recipe.yaml
+- File: Setting/Setting.yaml
+- File: Report/Report.yaml

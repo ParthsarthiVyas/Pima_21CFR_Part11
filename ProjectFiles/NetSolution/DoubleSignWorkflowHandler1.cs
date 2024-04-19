@@ -15,6 +15,7 @@ using FTOptix.NetLogic;
 using FTOptix.AuditSigning;
 using FTOptix.Alarm;
 using FTOptix.WebUI;
+using FTOptix.System;
 
 #endregion
 

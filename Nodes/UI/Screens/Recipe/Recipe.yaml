@@ -8,6 +8,12 @@ Children:
   Children:
   - Name: MainBackg
     Type: Rectangle
+    Children:
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#e4e4e4"
   - Name: Backgroung
     Type: Rectangle
     Children:
@@ -706,6 +712,16 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 0.0
+                - Name: InputBoxStyle
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ModellingRule: Optional
+                  Value: "Default"
+                - Name: ButtonStyle
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ModellingRule: Optional
+                  Value: "ButtonStyle1"
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size

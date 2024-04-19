@@ -199,12 +199,12 @@ Children:
   - Name: Users
     Type: Alias
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Value: "/Objects/Pima_21CFR_Part11/Security/Users"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Value: "/Objects/Pima_21CFR_Part11/Security/Users"
 - Name: ConfirmWorkflowPanel
   Id: g=30221b5fae81111f5c1f63984869a65b
   Supertype: Panel
@@ -254,22 +254,22 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Value: {"LocaleId":"en-US","Text":""}
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 110.0
+      Value: 320.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 250.0
+      Value: 110.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 140.0
+      Value: 130.0
   - Name: Confirm
     Type: Button
     Children:
@@ -287,7 +287,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#a6ddff"
+      Value: "#e4e4e4"
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -426,6 +426,11 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 0.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
   - Name: Cancel
     Type: Button
     Children:
@@ -541,6 +546,16 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#e4e4e4"
   - Name: NoteLabel
     Type: Label
     Children:
@@ -553,12 +568,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 70.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 145.0
+      Value: 135.0
   - Name: Title
     Type: Label
     Children:
@@ -851,12 +866,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 110.0
+      Value: 229.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 250.0
+      Value: 170.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -884,7 +899,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#a6ddff"
+      Value: "#e4e4e4"
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -1056,6 +1071,11 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
   - Name: Cancel
     Type: Button
     Children:
@@ -1171,6 +1191,16 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#e4e4e4"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
   - Name: NoteLabel
     Type: Label
     Children:
@@ -1183,7 +1213,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 90.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1200,12 +1230,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 110.0
+      Value: 229.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 250.0
+      Value: 170.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1223,7 +1253,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 90.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1330,7 +1360,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 90.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1400,7 +1430,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 110.0
+      Value: 229.0
     - Name: Item
       Type: Alias
       DataType: NodeId
@@ -1414,7 +1444,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 250.0
+      Value: 170.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1643,12 +1673,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 110.0
+      Value: 128.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 118.0
+      Value: 100.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1676,7 +1706,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#a6ddff"
+      Value: "#e4e4e4"
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -1893,6 +1923,11 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
   - Name: Cancel
     Type: Button
     Children:
@@ -2008,6 +2043,16 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#e4e4e4"
   - Name: NoteLabel
     Type: Label
     Children:
@@ -2037,12 +2082,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 110.0
+      Value: 128.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 118.0
+      Value: 100.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -2092,12 +2137,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 110.0
+      Value: 130.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 360.0
+      Value: 350.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -2120,12 +2165,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 250.0
+      Value: 246.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 125.0
+      Value: 127.0
   - Name: SecondUserLabel
     Type: Label
     Children:
@@ -2138,12 +2183,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 250.0
+      Value: 246.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 85.0
+      Value: 87.0
   - Name: Title
     Type: Label
     Children:
@@ -2297,7 +2342,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 110.0
+      Value: 130.0
     - Name: Item
       Type: Alias
       DataType: NodeId
@@ -2311,7 +2356,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 360.0
+      Value: 350.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -2329,12 +2374,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 250.0
+      Value: 246.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 172.0
   - Name: SecondNote
     Type: TextBox
     Children:
@@ -2346,12 +2391,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 110.0
+      Value: 130.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 360.0
+      Value: 350.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -2421,7 +2466,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 110.0
+      Value: 128.0
     - Name: Item
       Type: Alias
       DataType: NodeId
@@ -2435,7 +2480,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 118.0
+      Value: 100.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -3416,9 +3461,10 @@ Children:
   - Name: EventFieldsToLog
     Type: BaseObjectType
     Children:
-    - Name: LocalTimeStemp
+    - Name: LocalTimeStamp
       Type: EventFieldToLog
       DataType: DateTime
+      ValueRank: Any
       Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: ExpressionEvaluator1
@@ -3682,3 +3728,26 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/EventType@Pointer@BrowseName"
+    - Name: Dateformatted
+      Type: EventFieldToLog
+      DataType: DateString
+      ValueRank: Any
+      Value: ""
+      Children:
+      - Name: StringFormatter1
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          Value: {"LocaleId":"en-US","Text":"{0}"}
+        - Name: ns=3;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../NetLogic/mm_dd_yyyy_clock1/datetime"

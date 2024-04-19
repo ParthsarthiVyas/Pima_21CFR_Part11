@@ -13,6 +13,7 @@ using FTOptix.CoreBase;
 using FTOptix.Core;
 using FTOptix.NetLogic;
 using FTOptix.AuditSigning;
+using FTOptix.System;
 
 #endregion
 

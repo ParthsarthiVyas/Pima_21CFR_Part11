@@ -1,0 +1,88 @@
+Name: Setting
+Type: FolderType
+Children:
+- Name: MachineSetSpeed
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 10
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: ns=15;Users
+      Type: BaseObjectType
+    - Name: ns=15;Groups
+      Type: BaseObjectType
+    - Name: ns=15;WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 0
+- Name: SetTemperature
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 50
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: ns=15;Users
+      Type: BaseObjectType
+    - Name: ns=15;Groups
+      Type: BaseObjectType
+    - Name: ns=15;WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 2
+- Name: SpeedFactor
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 1.7799999713897705
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: ns=15;Users
+      Type: BaseObjectType
+    - Name: ns=15;Groups
+      Type: BaseObjectType
+    - Name: ns=15;WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 1
+- Name: ProductName
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Prod_1"
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: ns=15;Users
+      Type: BaseObjectType
+    - Name: ns=15;Groups
+      Type: BaseObjectType
+    - Name: ns=15;WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 1
+- Name: AutoMode
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: ns=15;Users
+      Type: BaseObjectType
+    - Name: ns=15;Groups
+      Type: BaseObjectType
+    - Name: ns=15;WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 0
