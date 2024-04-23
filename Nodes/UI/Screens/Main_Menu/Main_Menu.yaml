@@ -98,12 +98,12 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 160.0
+          Value: 150.0
         - Name: TextHorizontalAlignment
           Type: BaseVariableType
           DataType: TextHorizontalAlignment
           ModellingRule: Optional
-          Value: 1
+          Value: 0
         - Name: Elide
           Type: BaseDataVariableType
           DataType: ElideEnum
@@ -382,7 +382,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 20.0
+        Value: 5.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -1617,7 +1617,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Value: "/Objects/Pima_21CFR_Part11/UI/Screens/Batch/Batch_screen"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId

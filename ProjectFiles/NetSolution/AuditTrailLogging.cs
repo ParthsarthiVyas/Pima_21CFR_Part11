@@ -10,6 +10,7 @@ using FTOptix.Alarm;
 using FTOptix.WebUI;
 using FTOptix.UI;
 using FTOptix.System;
+using FTOptix.DataLogger;
 #endregion
 
 public class AuditTrailLogging : BaseNetLogic

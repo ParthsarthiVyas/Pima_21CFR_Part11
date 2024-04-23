@@ -1,0 +1,78 @@
+Name: Batch
+Id: g=426f3d3a7209ec15a425fb4dd4fc1313
+Type: FolderType
+Children:
+- Name: Batch_Object
+  Id: g=42e5b9c9a436878caf0fa83a6ddd0049
+  Type: BaseObjectType
+  Children:
+  - Name: Batch_name
+    Id: g=8019406654f7a9c65d4976045bee5393
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Product_name
+    Id: g=00889dd91e6ea44cfe98631584b1c0d8
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Start_date_time
+    Id: g=a17f452d87902c5cefa7f19950c48ef5
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+  - Name: Stop_date_time
+    Id: g=c747ae30526b67918d867319dd80b9fd
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+  - Name: User_name
+    Id: g=891b83ff42c18bfd2c88c63fe8c78aca
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Equipment_Name
+    Id: g=581859d855fd572c26f185640cc6862f
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Equipment_Id
+    Id: g=34ce8a07892c95dcfaeb7db7a66f2b45
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Batch_Running_Status
+    Id: g=0136dc2e4da9f0dfedda30f81889382d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Good_Count
+    Id: g=bc57533886be432106828dbfb7fc817a
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Rejected_Count
+    Id: g=6ba4a325612315f3e7a7825d4ade79c7
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Total_Count
+    Id: g=81af6330a6d16aa4b0fa5d651780a636
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Company_name
+    Id: g=0326b19ebc9c70e938d6e44b5c087c2b
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Batch_Size
+    Id: g=7195c63108a86956b87b30ab09baa8bb
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: RecipeName
+    Id: g=853736cd7bfcd6a3a815751a35c7223a
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

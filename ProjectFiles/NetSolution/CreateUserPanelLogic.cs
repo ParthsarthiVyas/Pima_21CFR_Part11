@@ -13,6 +13,7 @@ using FTOptix.WebUI;
 using FTOptix.System;
 using System.Collections.Generic;
 using System.Text;
+using FTOptix.DataLogger;
 #endregion
 
 public class CreateUserPanelLogic : BaseNetLogic

@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Text;
 using FTOptix.MicroController;
 using FTOptix.System;
+using FTOptix.DataLogger;
 #endregion
 
 public class EditUserDetailPanelLogic : BaseNetLogic

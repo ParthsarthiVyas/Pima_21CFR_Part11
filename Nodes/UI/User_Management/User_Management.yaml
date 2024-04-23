@@ -4,6 +4,7 @@ Children:
 - Name: _35_User_Administrator
   Id: g=ce15f2c0b45c7ca36458319d862cde01
   Supertype: Panel
+  DisplayName: {"LocaleId":"en-US","Text":"User Management"}
   ReferenceType: HasComponent
   Children:
   - Name: Width
@@ -38,7 +39,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#cfcfcf"
+      Value: "#e4e4e4"
     - Name: BorderThickness
       Type: BaseDataVariableType
       DataType: Size

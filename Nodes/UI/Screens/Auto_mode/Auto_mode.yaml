@@ -4,6 +4,7 @@ Children:
 - Name: AutoMode
   Id: g=24881658f9e79e1ed457d3d5d4187271
   Supertype: Screen
+  DisplayName: {"LocaleId":"en-US","Text":"Auto Mode"}
   ReferenceType: HasComponent
   Children:
   - Name: TankStorage1

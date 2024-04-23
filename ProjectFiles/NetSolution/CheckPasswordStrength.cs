@@ -9,6 +9,7 @@ using FTOptix.AuditSigning;
 using FTOptix.Alarm;
 using FTOptix.WebUI;
 using FTOptix.System;
+using FTOptix.DataLogger;
 #endregion
 
 public class CheckPasswordStrength : BaseNetLogic

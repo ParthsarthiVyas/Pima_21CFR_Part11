@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [87,2],
+    "Dimensions": [89,2],
     "Body": [
      "","en-US",
      "LoginFormLoginSuccessful","Login successful",
@@ -97,6 +97,8 @@ Children:
      "UserNotFound","User not found",
      "PasswordAlreadyUsed","Password already used in the past",
      "ChangesAppliedSuccessfully","Changes applied successfully",
-     "Create","Create"
+     "Create","Create",
+     "No","No",
+     "Yes","Yes"
     ]
    }

@@ -11,6 +11,7 @@ using FTOptix.WebUI;
 using FTOptix.Core;
 using FTOptix.UI;
 using FTOptix.System;
+using FTOptix.DataLogger;
 #endregion
 
 public class ChildrenCounter1 : BaseNetLogic

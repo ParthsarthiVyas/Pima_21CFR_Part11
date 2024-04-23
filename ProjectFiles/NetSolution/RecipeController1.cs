@@ -19,6 +19,7 @@ using FTOptix.MelsecFX3U;
 using FTOptix.MicroController;
 using FTOptix.System;
 using FTOptix.Alarm;
+using FTOptix.DataLogger;
 
 #endregion
 

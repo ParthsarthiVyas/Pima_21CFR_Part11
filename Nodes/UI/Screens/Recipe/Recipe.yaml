@@ -4,6 +4,7 @@ Children:
 - Name: Recipe_Control
   Id: g=d87e7a025f81a2d49e5ed7c8c897976c
   Supertype: SubScreenTemplate
+  DisplayName: {"LocaleId":"en-US","Text":"Recipe"}
   ReferenceType: HasComponent
   Children:
   - Name: MainBackg
@@ -94,7 +95,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 540.0
+        Value: 580.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -115,6 +116,17 @@ Children:
         Children:
         - Name: Border
           Type: Rectangle
+          Children:
+          - Name: FillColor
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: Optional
+            Value: "#ffffff"
+          - Name: Opacity
+            Type: BaseVariableType
+            DataType: Float
+            ModellingRule: Optional
+            Value: 100.0
         - Name: RecipesComboBox
           Type: ComboBox
           Children:
@@ -531,6 +543,46 @@ Children:
                     Type: BaseDataVariableType
                     DataType: CopyErrorPolicy
                     Value: 1
+              - Name: MethodContainer2
+                Type: BaseObjectType
+                Children:
+                - Name: ns=3;ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/VariableCommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: ns=3;Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "Set"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: VariableToModify
+                    Type: BaseDataVariableType
+                    DataType: VariablePointer
+                    Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                    Value: "/Objects/Pima_21CFR_Part11/Model/Batch/Batch_Object/RecipeName"
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                    Value: ""
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../RecipesComboBox/Text"
+                  - Name: ArrayIndex
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                    ValueRank: ScalarOrOneDimension
+                    Value: 0
             - Name: EventArguments
               Type: MouseClickEvent
               Children:
@@ -2393,6 +2445,21 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 24.0
+    - Name: BorderThickness
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 5.0
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#0fafff"
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#e4e4e4"
 - Name: SubScreenTemplate
   Id: g=08c08207650f05edda22b3ea186d364a
   Supertype: Panel

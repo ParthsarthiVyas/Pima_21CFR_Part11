@@ -357,7 +357,75 @@ Children:
           Type: StoreColumn
           DataType: String
           Value: ""
-    - Name: Recipe
+  - Class: Reference
+    Target: ns=29;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward
+- Name: EDB_Batch_Report
+  Id: g=961c9e11f734f139c493f9cb60dfcb7f
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: BatchInfo
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -375,23 +443,59 @@ Children:
       - Name: Columns
         Type: BaseObjectType
         Children:
-        - Name: Name
+        - Name: LocalTimeStamp
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: BatchNumber
           Type: StoreColumn
           DataType: String
           Value: ""
-        - Name: /RecSetSpeed
+        - Name: BatchStartTime
           Type: StoreColumn
-          DataType: Int16
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: BatchStopTime
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ProductName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Username
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: TotalCounts
+          Type: StoreColumn
+          DataType: Int32
           Value: 0
-        - Name: /RecSetTemp
+        - Name: RejectCounts
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: GoodCounts
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: BatchSize
           Type: StoreColumn
           DataType: UInt32
           Value: 0
-        - Name: /RecSpeedFactor
+        - Name: Recipename
           Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: /RecProdName
+          DataType: String
+          Value: ""
+        - Name: Companyname
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: EquipmentName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: EquipmentId
           Type: StoreColumn
           DataType: String
           Value: ""
