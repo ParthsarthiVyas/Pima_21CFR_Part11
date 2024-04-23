@@ -436,7 +436,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 311.0
+      Value: 274.0
     - Name: Rotation
       Type: BaseVariableType
       DataType: Size
