@@ -12,3 +12,55 @@ Children:
 - File: Setting/Setting.yaml
 - File: Report/Report.yaml
 - File: Batch/Batch.yaml
+- File: Automode/Automode.yaml
+- Name: AnimationInstance
+  Type: Animation
+  Children:
+  - Name: Button
+    Id: g=ce32d2a77bafdc992b4deaa57d2c3ca2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Level
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Automode/Level"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: AnimationLogic
+    Type: NetLogic
+- Name: Animation
+  Id: g=4e8e0f81609331d2a07228ddb874f1bc
+  Supertype: BaseObjectType
+  Children:
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Level
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+  - Name: AnimationLogic
+    Type: NetLogic
+- Name: Animation1
+  Type: Animation
+  Children:
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Level
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+  - Name: AnimationLogic
+    Type: NetLogic

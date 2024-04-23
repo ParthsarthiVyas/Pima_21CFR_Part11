@@ -715,6 +715,8 @@ Children:
             ValueRank: OneDimension
             ArrayDimensions: [0]
             Value: []
+  - Name: RuntimeNetLogic1
+    Type: NetLogic
 - File: Screens/Screens.yaml
 - File: UserObjects/UserObjects.yaml
 - File: UserLoginForm/UserLoginForm.yaml

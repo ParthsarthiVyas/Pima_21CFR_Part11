@@ -126,15 +126,15 @@ Project:
    Module: FTOptix.Alarm.Net
    Version: 1.0
  Statistics:
-  TotalNodeCount: 8411
-  Objects: 1318
-  ObjectTypes: 43
-  Variables: 7023
+  TotalNodeCount: 9025
+  Objects: 1419
+  ObjectTypes: 45
+  Variables: 7534
   VariableTypes: 0
   DataTypes: 0
   Methods: 27
   References: 155
   ReferenceTypes: 0
-  Files: 39
+  Files: 42
  Nodes:
  - File: Nodes/Pima_21CFR_Part11.yaml

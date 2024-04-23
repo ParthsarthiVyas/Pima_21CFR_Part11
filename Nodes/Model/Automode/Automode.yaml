@@ -1,0 +1,7 @@
+Name: Automode
+Type: FolderType
+Children:
+- Name: Level
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
