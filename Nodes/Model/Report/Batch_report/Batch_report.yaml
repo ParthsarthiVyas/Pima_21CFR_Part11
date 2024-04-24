@@ -1,0 +1,95 @@
+Name: Batch_report
+Type: FolderType
+Children:
+- Name: Batch_Query
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: StringFormatter1
+    Type: StringFormatter
+    Children:
+    - Name: Format
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ReferenceType: HasParameter
+      Value: {"LocaleId":"en-US","Text":"SELECT BatchNumber, BatchStartTime, BatchStopTime, ProductName, Username, TotalCounts, RejectCounts, GoodCounts, BatchSize, Recipename, Companyname,EquipmentName,EquipmentId  FROM \"BatchInfo\" WHERE BatchNumber = {0:sql_literal}"}
+    - Name: ns=3;Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../BatchName"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: LocalTimeStamp
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1601-01-01T00:00:00.0000000"
+- Name: BatchName
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: BatchNumber
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: BatchStartTime
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1601-01-01T00:00:00.0000000"
+- Name: BatchStopTime
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1601-01-01T00:00:00.0000000"
+- Name: ProductName
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Username
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: TotalCounts
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: RejectCounts
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: GoodCounts
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: BatchSize
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Recipename
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Companyname
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: EquipmentName
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: EquipmentId
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

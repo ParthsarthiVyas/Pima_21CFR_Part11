@@ -480,7 +480,7 @@ Children:
           Value: 0
         - Name: BatchSize
           Type: StoreColumn
-          DataType: UInt32
+          DataType: Int32
           Value: 0
         - Name: Recipename
           Type: StoreColumn

@@ -56,3 +56,4 @@ Children:
   DataType: String
   Value: "SELECT * FROM \"SigningEventLogger\""
 - File: Path/Path.yaml
+- File: Batch_report/Batch_report.yaml

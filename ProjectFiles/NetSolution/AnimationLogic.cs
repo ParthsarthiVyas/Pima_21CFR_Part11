@@ -33,7 +33,7 @@ public class AnimationLogic : BaseNetLogic
         buttonVariable = owner.ButtonVariable;
         levelVariable = owner.LevelVariable;
 
-        periodicTask = new PeriodicTask(RunTask, 500, LogicObject);
+        periodicTask = new PeriodicTask(RunTask, 100, LogicObject);
         periodicTask.Start();
     }
 
