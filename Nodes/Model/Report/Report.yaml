@@ -14,4 +14,45 @@ Children:
   Type: BaseDataVariableType
   DataType: String
   Value: "0"
+- Name: Auditbytime
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ""
+  Children:
+  - Name: StringFormatter1
+    Type: StringFormatter
+    Children:
+    - Name: Format
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ReferenceType: HasParameter
+      Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"SigningEventLogger\" WHERE LocalTimeStamp BETWEEN {0:sql_literal} AND {1:sql_literal}"}
+    - Name: ns=3;Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/Pima_21CFR_Part11/Model/Report/Fromdate"
+    - Name: ns=3;Source1
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Todate"
+- Name: Audit_Report_Base_view
+  Id: g=67c30656ee5c35d0b4f0062998e7adb5
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECT * FROM \"SigningEventLogger\""
+- Name: Audit_Report_Base_Pdf
+  Id: g=36d47ff0d3d3e408b9697203d62d3f8c
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECT * FROM \"SigningEventLogger\""
 - File: Path/Path.yaml

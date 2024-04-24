@@ -179,7 +179,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Font
     Value: ""
-- Name: Reports1
+- Name: Audit
   Id: g=dbf4f8faf9e0a031f4d3868f615cb80f
   Type: Report
   ReferenceType: HasComponent
@@ -2549,34 +2549,12 @@ Children:
       - Name: Query
         Type: BaseDataVariableType
         DataType: String
-        Value: "SELECT * FROM \"SigningEventLogger\""
+        Value: ""
         Children:
-        - Name: StringFormatter1
-          Type: StringFormatter
-          Children:
-          - Name: Format
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ReferenceType: HasParameter
-            Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"SigningEventLogger\" WHERE LocalTimeStamp BETWEEN {0:sql_literal} AND {1:sql_literal}"}
-          - Name: ns=3;Source0
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Pima_21CFR_Part11/Model/Report/Fromdate"
-          - Name: ns=3;Source1
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Pima_21CFR_Part11/Model/Report/Todate"
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../Model/Report/Audit_Report_Base_view"
       - Name: UISelectedItem
         Type: BaseDataVariableType
         DataType: NodeId

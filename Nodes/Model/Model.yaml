@@ -13,6 +13,7 @@ Children:
 - File: Report/Report.yaml
 - File: Batch/Batch.yaml
 - File: Automode/Automode.yaml
+- File: FileExplorer_ReportPDF_Model/FileExplorer_ReportPDF_Model.yaml
 - Name: AnimationInstance
   Type: Animation
   Children:
