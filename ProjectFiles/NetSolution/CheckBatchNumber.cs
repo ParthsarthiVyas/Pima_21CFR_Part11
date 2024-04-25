@@ -11,6 +11,7 @@ using FTOptix.SQLiteStore;
 using FTOptix.Store;
 using FTOptix.Core;
 using FTOptix.WebUI;
+using FTOptix.Alarm;
 #endregion
 
 public class CheckBatchNumber : BaseNetLogic
@@ -130,7 +131,7 @@ public class CheckBatchNumber : BaseNetLogic
           int totalcount = Project.Current.GetVariable("Model/Batch/Batch_Object/Total_Count").Value;
           int rejectcount = Project.Current.GetVariable("Model/Batch/Batch_Object/Rejected_Count").Value;
           int goodcount = Project.Current.GetVariable("Model/Batch/Batch_Object/Good_Count").Value;
-          int Companyname = Project.Current.GetVariable("Model/Batch/Batch_Object/Company_name").Value;
+          String Companyname = Project.Current.GetVariable("Model/Batch/Batch_Object/Company_name").Value;
           int Batchsize = Project.Current.GetVariable("Model/Batch/Batch_Object/Batch_Size").Value;
           String Recipename = Project.Current.GetVariable("Model/Batch/Batch_Object/RecipeName").Value;
           String EquipmentName = Project.Current.GetVariable("Model/Batch/Batch_Object/Equipment_Name").Value;

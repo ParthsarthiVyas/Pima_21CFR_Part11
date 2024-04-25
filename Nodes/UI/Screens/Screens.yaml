@@ -3,11 +3,12 @@ Type: ScreensCategoryFolder
 Children:
 - File: Main_Menu/Main_Menu.yaml
 - File: Login_page/Login_page.yaml
-- File: Report_View/Report_View.yaml
-- File: Report_Generate/Report_Generate.yaml
+- File: Alarm/Alarm.yaml
 - File: Auto_mode/Auto_mode.yaml
+- File: Manual_Mode/Manual_Mode.yaml
 - File: Recipe/Recipe.yaml
 - File: Batch/Batch.yaml
 - File: Setting/Setting.yaml
+- File: Report_View/Report_View.yaml
+- File: Report_Generate/Report_Generate.yaml
 - File: Popup_Screens/Popup_Screens.yaml
-- File: Manual_Mode/Manual_Mode.yaml

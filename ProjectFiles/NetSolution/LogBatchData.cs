@@ -15,6 +15,7 @@ using FTOptix.DataLogger;
 using System.Data;
 using Microsoft.VisualBasic;
 using System.Globalization;
+using FTOptix.Alarm;
 #endregion
 
 public class LogBatchData : BaseNetLogic
@@ -37,7 +38,7 @@ public class LogBatchData : BaseNetLogic
         int totalcount = Project.Current.GetVariable("Model/Batch/Batch_Object/Total_Count").Value;
         int rejectcount = Project.Current.GetVariable("Model/Batch/Batch_Object/Rejected_Count").Value;
         int goodcount = Project.Current.GetVariable("Model/Batch/Batch_Object/Good_Count").Value;
-        int Companyname = Project.Current.GetVariable("Model/Batch/Batch_Object/Company_name").Value;
+        string Companyname = Project.Current.GetVariable("Model/Batch/Batch_Object/Company_name").Value;
         int Batchsize = Project.Current.GetVariable("Model/Batch/Batch_Object/Batch_Size").Value;
         string Recipename = Project.Current.GetVariable("Model/Batch/Batch_Object/RecipeName").Value;
         string EquipmentName = Project.Current.GetVariable("Model/Batch/Batch_Object/Equipment_Name").Value;

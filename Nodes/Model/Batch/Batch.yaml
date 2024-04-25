@@ -30,7 +30,7 @@ Children:
     Id: g=891b83ff42c18bfd2c88c63fe8c78aca
     Type: BaseDataVariableType
     DataType: String
-    Value: "0"
+    Value: ""
   - Name: Equipment_Name
     Id: g=581859d855fd572c26f185640cc6862f
     Type: BaseDataVariableType

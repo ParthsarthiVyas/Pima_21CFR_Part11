@@ -49,7 +49,7 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#e4e4e4"
-  - Name: TagGrid1
+  - Name: TagGrid2
     Type: DataGrid
     WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
     Children:
@@ -655,6 +655,11 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#000000"
+    - Name: TextHorizontalAlignment
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
   - Name: TextBox2
     Type: DateTimePicker
     Children:
@@ -693,6 +698,11 @@ Children:
       DataType: DateTimePickerInputFormatEnum
       ModellingRule: Optional
       Value: 0
+    - Name: TextHorizontalAlignment
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
   - Name: Button3
     Type: Button
     Children:
@@ -1047,7 +1057,7 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 14.0
-- Name: Batch
+- Name: Batch_view
   Id: g=9083dbec61dc5d772131004f11761d63
   Supertype: Panel
   ReferenceType: HasComponent
@@ -3021,7 +3031,7 @@ Children:
       - Name: Panel
         Type: NodePointer
         DataType: NodeId
-        Value: "/Objects/Pima_21CFR_Part11/UI/Screens/Report_View/Batch"
+        Value: "/Objects/Pima_21CFR_Part11/UI/Screens/Report_View/Batch_view"
         Children:
         - Name: Kind
           Type: PropertyType
@@ -3032,7 +3042,7 @@ Children:
         DataType: NodeId
         ModellingRule: Optional
         ValueRank: ScalarOrOneDimension
-        Value: "/Objects/Pima_21CFR_Part11/UI/Screens/Report_View/Batch"
+        Value: "/Objects/Pima_21CFR_Part11/UI/Screens/Report_View/Batch_view"
   - Name: CurrentPanel
     Type: NodePointer
     DataType: NodeId

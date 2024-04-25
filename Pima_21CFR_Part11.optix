@@ -125,16 +125,20 @@ Project:
    Uri: 'urn:FTOptix:Alarm:Net'
    Module: FTOptix.Alarm.Net
    Version: 1.0
+  35:
+   Uri: 'urn:FTOptix:Alarm'
+   Module: FTOptix.Alarm
+   Version: 2.0
  Statistics:
-  TotalNodeCount: 10535
-  Objects: 1575
-  ObjectTypes: 49
-  Variables: 8884
+  TotalNodeCount: 13323
+  Objects: 1862
+  ObjectTypes: 56
+  Variables: 11378
   VariableTypes: 0
   DataTypes: 0
   Methods: 27
-  References: 162
+  References: 181
   ReferenceTypes: 0
-  Files: 46
+  Files: 47
  Nodes:
  - File: Nodes/Pima_21CFR_Part11.yaml

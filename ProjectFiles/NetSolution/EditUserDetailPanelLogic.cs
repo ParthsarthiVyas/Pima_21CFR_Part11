@@ -13,6 +13,7 @@ using System.Text;
 using FTOptix.MicroController;
 using FTOptix.System;
 using FTOptix.DataLogger;
+using FTOptix.Alarm;
 #endregion
 
 public class EditUserDetailPanelLogic : BaseNetLogic

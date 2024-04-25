@@ -10,6 +10,7 @@ using FTOptix.UI;
 using FTOptix.Store;
 using FTOptix.Core;
 using FTOptix.WebUI;
+using FTOptix.Alarm;
 #endregion
 
 public class GetBatchInfo : BaseNetLogic

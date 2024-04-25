@@ -38,3 +38,8 @@ Children:
       DataType: DynamicLinkMode
       ReferenceType: HasComponent
       Value: 2
+- Name: Batch_report
+  Id: g=6d9a744cec6f1a6ea03c8c91d27e0a32
+  Type: BaseDataVariableType
+  DataType: ResourceUri
+  Value: "0"
