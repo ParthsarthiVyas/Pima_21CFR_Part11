@@ -44,6 +44,10 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
+  - Name: Date1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
 - Name: ClockLogic
   Type: NetLogic
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -52,3 +56,7 @@ Children:
     Type: BaseDataVariableType
     DataType: DateTime
     Value: "1601-01-01T00:00:00.0000000"
+  - Name: Dateonly
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""

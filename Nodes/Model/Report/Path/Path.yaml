@@ -43,3 +43,8 @@ Children:
   Type: BaseDataVariableType
   DataType: ResourceUri
   Value: "0"
+- Name: Alarm_report
+  Id: g=95cd059c31aff244c3fd253fa55e8027
+  Type: BaseDataVariableType
+  DataType: ResourceUri
+  Value: "0"

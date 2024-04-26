@@ -133,7 +133,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 150.0
+          Value: 220.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -310,7 +310,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 150.0
+          Value: 220.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -406,7 +406,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 150.0
+          Value: 220.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -804,7 +804,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/FTOptix_Demo/Model/AuditTrail/AutoMode"
+          Value: "/Objects/Pima_21CFR_Part11/Model/Setting/AutoMode"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -929,3 +929,8 @@ Children:
         DataType: Color
         ModellingRule: Optional
         Value: "#0fafff"
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 678.0

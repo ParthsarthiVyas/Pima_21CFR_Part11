@@ -2,15 +2,15 @@ Name: PDFViewerZoomMode
 Id: g=a02bacfc128ebc056c5729016557303f
 Type: FolderType
 Children:
+- Name: Fit width
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"LocaleId":"en-US","Text":"Fit width"}
 - Name: Custom level
   Id: g=ffefaebe26d5d8a1e3ab6b2c6871502e
   Type: BaseDataVariableType
   DataType: LocalizedText
   Value: {"LocaleId":"en-US","Text":"Custom level"}
-- Name: Fit width
-  Type: BaseDataVariableType
-  DataType: LocalizedText
-  Value: {"LocaleId":"en-US","Text":"Fit width"}
 - Name: Actual size
   Type: BaseDataVariableType
   DataType: LocalizedText

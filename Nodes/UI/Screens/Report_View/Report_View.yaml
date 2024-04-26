@@ -816,6 +816,11 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#b3b3b3"
   - Name: ComboBox1
     Type: ComboBox
     Children:
@@ -1011,6 +1016,11 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#b3b3b3"
   - Name: Label1
     Type: Label
     Children:
@@ -3072,7 +3082,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 668.0
+    Value: 678.0
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment

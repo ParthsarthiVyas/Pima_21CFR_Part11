@@ -233,7 +233,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 120.0
+            Value: 210.0
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -329,12 +329,17 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 10.0
+            Value: 240.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 30.0
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: Optional
+            Value: "#b3b3b3"
         - Name: AcknowledgeAllButton
           Type: Button
           Children:
@@ -347,7 +352,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 120.0
+            Value: 210.0
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -357,7 +362,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 150.0
+            Value: 460.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -434,6 +439,11 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 30.0
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: Optional
+            Value: "#b3b3b3"
         - Name: ConfirmButton
           Type: Button
           Children:
@@ -446,7 +456,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 120.0
+            Value: 210.0
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -456,7 +466,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 290.0
+            Value: 680.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -548,6 +558,11 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 30.0
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: Optional
+            Value: "#b3b3b3"
         - Name: ConfirmAllButton
           Type: Button
           Children:
@@ -560,7 +575,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 120.0
+            Value: 210.0
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -570,7 +585,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 430.0
+            Value: 900.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -647,6 +662,11 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 30.0
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: Optional
+            Value: "#b3b3b3"
         - Name: AlarmGridLogic
           Type: NetLogic
         - Name: AlarmsDataGrid
@@ -772,76 +792,6 @@ Children:
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "{Item}/Message"
-            - Name: Name
-              Type: DataGridColumn
-              Children:
-              - Name: Title
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":33,"TextId":"Name"}
-              - Name: Width
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: 150.0
-              - Name: HeaderAlignment
-                Type: BaseDataVariableType
-                DataType: TextHorizontalAlignment
-                Value: 1
-              - Name: ContentAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                Value: 0
-              - Name: OrderBy
-                Type: BaseDataVariableType
-                DataType: NodePath
-                Value: "{Item}@BrowseName"
-              - Name: DataItemTemplate
-                Type: DataGridLabelItemTemplate
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: CollegamentoDinamico
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "{Item}@BrowseName"
-            - Name: SourceVariable
-              Type: DataGridColumn
-              Children:
-              - Name: Title
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":33,"TextId":"SourceName"}
-              - Name: Width
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: 200.0
-              - Name: HeaderAlignment
-                Type: BaseDataVariableType
-                DataType: TextHorizontalAlignment
-                Value: 1
-              - Name: ContentAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                Value: 0
-              - Name: OrderBy
-                Type: BaseDataVariableType
-                DataType: NodePath
-                Value: "{Item}/SourceName"
-              - Name: DataItemTemplate
-                Type: DataGridLabelItemTemplate
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "{Item}/SourceName"
             - Name: Active
               Type: DataGridColumn
               Children:
@@ -1070,41 +1020,6 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Size
                   Value: 16.0
-            - Name: Severity
-              Type: DataGridColumn
-              Children:
-              - Name: Title
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":33,"TextId":"Severity"}
-              - Name: Width
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: 80.0
-              - Name: HeaderAlignment
-                Type: BaseDataVariableType
-                DataType: TextHorizontalAlignment
-                Value: 2
-              - Name: ContentAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                Value: 1
-              - Name: OrderBy
-                Type: BaseDataVariableType
-                DataType: NodePath
-                Value: "{Item}/Severity"
-              - Name: DataItemTemplate
-                Type: DataGridLabelItemTemplate
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: CollegamentoDinamico
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "{Item}/Severity"
           - Name: SelectedItem
             Type: NodePointer
             DataType: NodeId
@@ -1156,7 +1071,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 0.0
+            Value: 240.0
           - Name: UISelectedItem
             Type: BaseDataVariableType
             DataType: NodeId
@@ -1192,6 +1107,206 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 20.0
+      - Name: Switch1
+        Type: Switch
+        Children:
+        - Name: Checked
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Pima_21CFR_Part11/Model/Alarm/Emergency_Alarm"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 69.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 149.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 71.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 18.0
+        - Name: CheckedText
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"ON"}
+        - Name: UncheckedText
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"OFF"}
+      - Name: Switch2
+        Type: Switch
+        Children:
+        - Name: Checked
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Pima_21CFR_Part11/Model/Alarm/Airpressure_low_Alarm"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 69.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 149.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 99.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 18.0
+        - Name: CheckedText
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"NamespaceIndex":33,"TextId":"Low State"}
+        - Name: UncheckedText
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Normal"}
+      - Name: Label1
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Emergency"}
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 54.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 72.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 85.0
+      - Name: Label2
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Air Pressure"}
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 55.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 100.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 95.0
+      - Name: Label3
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Alarm Demo"}
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -1135.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 19.0
+        - Name: FontSize
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 25.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 152.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 2
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: TextHorizontalAlignment
+          Type: BaseVariableType
+          DataType: TextHorizontalAlignment
+          ModellingRule: Optional
+          Value: 0
+        - Name: TextVerticalAlignment
+          Type: BaseVariableType
+          DataType: TextVerticalAlignment
+          ModellingRule: Optional
+          Value: 1
+        - Name: TextColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#0fafff"
 - Name: Alarm_History
   Id: g=dc0efb66cca6ef68888d4395a41443b7
   Supertype: Panel
@@ -1350,7 +1465,7 @@ Children:
               DataType: LocalizedText
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"SELECT ActiveState_Id, EnabledState_Id, AckedState_Id, ConfirmedState_Id, ConditionName, SourceName, {1:sql_identifier} AS Message, Severity, LocalTime FROM {0:sql_identifier} ORDER BY LocalTime DESC"}
+              Value: {"LocaleId":"en-US","Text":"SELECT ActiveState_Id, AckedState_Id, ConfirmedState_Id, {1:sql_identifier} AS Message, LocalTime FROM {0:sql_identifier} ORDER BY LocalTime DESC"}
             - Name: Source0
               Type: BaseDataVariableType
               DataType: BaseDataType
@@ -1436,76 +1551,6 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Item}/LocalTime"
-          - Name: Name
-            Type: DataGridColumn
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":33,"TextId":"Name"}
-            - Name: Width
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 150.0
-            - Name: HeaderAlignment
-              Type: BaseDataVariableType
-              DataType: TextHorizontalAlignment
-              Value: 0
-            - Name: ContentAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              Value: 0
-            - Name: OrderBy
-              Type: BaseDataVariableType
-              DataType: NodePath
-              Value: "{Item}/ConditionName"
-            - Name: DataItemTemplate
-              Type: DataGridLabelItemTemplate
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{Item}/ConditionName"
-          - Name: SourceName
-            Type: DataGridColumn
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":33,"TextId":"SourceName"}
-            - Name: Width
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 150.0
-            - Name: HeaderAlignment
-              Type: BaseDataVariableType
-              DataType: TextHorizontalAlignment
-              Value: 0
-            - Name: ContentAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              Value: 0
-            - Name: OrderBy
-              Type: BaseDataVariableType
-              DataType: NodePath
-              Value: "{Item}/SourceName"
-            - Name: DataItemTemplate
-              Type: DataGridLabelItemTemplate
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{Item}/SourceName"
           - Name: Message
             Type: DataGridColumn
             Children:
@@ -1787,41 +1832,6 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Size
                 Value: 15.0
-          - Name: Severity
-            Type: DataGridColumn
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":33,"TextId":"Severity"}
-            - Name: Width
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 80.0
-            - Name: HeaderAlignment
-              Type: BaseDataVariableType
-              DataType: TextHorizontalAlignment
-              Value: 2
-            - Name: ContentAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              Value: 1
-            - Name: OrderBy
-              Type: BaseDataVariableType
-              DataType: NodePath
-              Value: "{Item}/Severity"
-            - Name: DataItemTemplate
-              Type: DataGridLabelItemTemplate
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                Children:
-                - Name: CollegamentoDinamico
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{Item}/Severity"
         - Name: SelectedItem
           Type: NodePointer
           DataType: NodeId
@@ -1835,16 +1845,16 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 1319.0
+          Value: 1155.0
         - Name: Height
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 589.0
+          Value: 260.0
         - Name: AlarmEventsLogger
           Type: Alias
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
+          Value: "/Objects/Pima_21CFR_Part11/Loggers/AlarmsEventLogger1"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -1859,12 +1869,12 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
+          Value: 3
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
+          Value: 3
         - Name: Item
           Type: Alias
           DataType: NodeId
@@ -1898,3 +1908,18 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 10.0
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+        - Name: RowBackgroundColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#ffffff"

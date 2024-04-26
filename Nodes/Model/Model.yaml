@@ -7,6 +7,7 @@ Children:
   DataType: Int32
   WriteMask: ArrayDimensions|BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel|ValueRank|ValueForVariableType
   Value: 0
+- File: Alarm/Alarm.yaml
 - File: Retain_Variable/Retain_Variable.yaml
 - File: Recipe/Recipe.yaml
 - File: Setting/Setting.yaml

@@ -673,6 +673,11 @@ Children:
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 2
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
   - Name: Rectangle3
     Type: Rectangle
     Children:
@@ -3074,7 +3079,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 640.0
+    Value: 678.0
   - Name: CheckBatchNumber
     Type: NetLogic
     Children:

@@ -37,6 +37,7 @@ public class ClockLogic : BaseNetLogic {
     private void UpdateTime() {
         var timeVar = LogicObject.GetVariable("Time");
         timeVar.Value = DateTime.Now;
+
     }
 
     private PeriodicTask periodicTask;

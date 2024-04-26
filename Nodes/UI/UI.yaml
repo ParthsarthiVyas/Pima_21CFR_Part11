@@ -26,7 +26,7 @@ Children:
       - Name: FocusBorderColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#b3b3b3"
+        Value: "#0fafff"
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
@@ -231,6 +231,19 @@ Children:
     Children:
     - Name: Default
       Type: SwitchStyle
+      Children:
+      - Name: FocusBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
+      - Name: ActiveBackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
   - Name: GaugeStyles
     Type: BaseObjectType
     Children:
@@ -284,7 +297,7 @@ Children:
       - Name: VerticalLineColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#ffffff"
+        Value: "#00000000"
       - Name: HorizontalLineColor
         Type: BaseDataVariableType
         DataType: Color
@@ -362,7 +375,7 @@ Children:
   - Name: FocusColor
     Type: BaseDataVariableType
     DataType: Color
-    Value: "#e4e4e400"
+    Value: "#00000000"
   - Name: AccentBorderColor
     Type: BaseDataVariableType
     DataType: Color

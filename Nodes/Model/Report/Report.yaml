@@ -4,11 +4,11 @@ Children:
 - Name: Fromdate
   Type: BaseDataVariableType
   DataType: DateTime
-  Value: "2024-04-19T00:00:00.0000000"
+  Value: "2024-04-19T02:00:00.0000000"
 - Name: Todate
   Type: BaseDataVariableType
   DataType: DateTime
-  Value: "2024-04-19T20:00:00.0000000"
+  Value: "2024-04-19T23:59:59.0000000"
 - Name: Printedby
   Id: g=7863a8a468b6297c467bd0df3d136bd5
   Type: BaseDataVariableType
@@ -51,9 +51,16 @@ Children:
   DataType: String
   Value: "SELECT * FROM \"SigningEventLogger\""
 - Name: Audit_Report_Base_Pdf
-  Id: g=36d47ff0d3d3e408b9697203d62d3f8c
   Type: BaseDataVariableType
   DataType: String
   Value: "SELECT * FROM \"SigningEventLogger\""
 - File: Path/Path.yaml
 - File: Batch_report/Batch_report.yaml
+- Name: Fromdatealarm
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2024-04-19T01:00:00.0000000"
+- Name: TodateAlarm
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2024-04-19T23:59:59.0000000"
