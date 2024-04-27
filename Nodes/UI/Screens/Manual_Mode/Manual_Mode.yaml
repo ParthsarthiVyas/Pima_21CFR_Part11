@@ -4,6 +4,7 @@ Children:
 - Name: Manual_Screen
   Id: g=a0a23e8bbc8e58c844cfc69518797d78
   Supertype: Screen
+  DisplayName: {"LocaleId":"en-US","Text":"Manual Mode"}
   ReferenceType: HasComponent
   Children:
   - Name: Rectangle1

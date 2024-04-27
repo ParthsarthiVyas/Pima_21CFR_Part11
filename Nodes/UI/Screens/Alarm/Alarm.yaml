@@ -4,6 +4,7 @@ Children:
 - Name: NavigationPanel1
   Id: g=8db6cf1895054abcbd9475503cab4cfc
   Supertype: NavigationPanel
+  DisplayName: {"LocaleId":"en-US","Text":"Alarm"}
   ReferenceType: HasComponent
   Children:
   - Name: Panels
