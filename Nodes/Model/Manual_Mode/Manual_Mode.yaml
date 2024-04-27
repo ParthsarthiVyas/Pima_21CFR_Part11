@@ -1,0 +1,43 @@
+Name: Manual_Mode
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=83aece898e10832295fa79e33407b4f6
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable2
+  Id: g=a14a8e1f2099181c7dcb726f77c93b3b
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable3
+  Id: g=616c7bf864b4f6b90b7c5e19fb0e44ba
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable4
+  Id: g=0d64460a1f67aaee39498abf6749779d
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable5
+  Id: g=b219982fbe89e03fb60036a349b758d1
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable6
+  Id: g=7547f53f5dcfb62061a7fef39ad0ec1d
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable7
+  Id: g=3ba20500006266442aeefb2f86fa8ef7
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable8
+  Id: g=9b888fb85ea5308913c2822a250fad23
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

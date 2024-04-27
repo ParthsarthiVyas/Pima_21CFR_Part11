@@ -66,3 +66,5 @@ Children:
     Value: 100
   - Name: AnimationLogic
     Type: NetLogic
+- File: Manual_Mode/Manual_Mode.yaml
+- File: I_O/I_O.yaml
