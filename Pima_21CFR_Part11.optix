@@ -130,10 +130,10 @@ Project:
    Module: FTOptix.Alarm
    Version: 2.0
  Statistics:
-  TotalNodeCount: 17258
-  Objects: 2255
+  TotalNodeCount: 17344
+  Objects: 2252
   ObjectTypes: 60
-  Variables: 14916
+  Variables: 15005
   VariableTypes: 0
   DataTypes: 0
   Methods: 27

@@ -178,7 +178,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 79.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -194,6 +194,11 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 10.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
         - Name: MultistateImage1
           Type: MultiStateImage
           Children:
@@ -582,7 +587,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 309.0
+            Value: 310.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -733,6 +738,36 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
+          - Name: Enabled
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Pima_21CFR_Part11/Model/AnimationInstance/Button"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: false
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: true
         - Name: Button2
           Type: Button
           Children:
@@ -770,7 +805,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 309.0
+            Value: 310.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -891,6 +926,36 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
+          - Name: Enabled
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Pima_21CFR_Part11/Model/AnimationInstance/Button"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: false
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: true
         - Name: Button3
           Type: Button
           Children:
@@ -933,7 +998,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 440.0
+            Value: 439.0
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -1049,6 +1114,36 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
+          - Name: Enabled
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Pima_21CFR_Part11/Model/AnimationInstance/Button"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: false
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: true
         - Name: Label3
           Type: Label
           Children:
@@ -1379,6 +1474,36 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
+          - Name: Enabled
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Pima_21CFR_Part11/Model/AnimationInstance/Button"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: false
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: true
         - Name: Label7
           Type: Label
           Children:
@@ -1425,11 +1550,6 @@ Children:
         - Name: Button5
           Type: Button
           Children:
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 1009.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1580,6 +1700,46 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
+          - Name: Enabled
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Pima_21CFR_Part11/Model/AnimationInstance/Button"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: false
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: true
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 150.0
         - Name: Button6
           Type: Button
           Children:
@@ -1613,11 +1773,6 @@ Children:
                 ReferenceType: HasParameter
                 ModellingRule: Optional
                 Value: {"LocaleId":"en-US","Text":"OFF"}
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 1009.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1738,18 +1893,10 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
-        - Name: Button7
-          Type: MomentaryButton
-          Children:
-          - Name: Active
+          - Name: Enabled
             Type: BaseDataVariableType
             DataType: Boolean
-            AccessLevel: Read
-            Value: false
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Value: true
             Children:
             - Name: ConditionalConverter1
               Type: ConditionalConverter
@@ -1763,19 +1910,48 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable7"
+                  Value: "/Objects/Pima_21CFR_Part11/Model/AnimationInstance/Button"
               - Name: TrueValue
                 Type: BaseDataVariableType
-                DataType: LocalizedText
+                DataType: Boolean
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Up"}
+                Value: false
               - Name: FalseValue
                 Type: BaseDataVariableType
-                DataType: LocalizedText
+                DataType: Boolean
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":""}
+                Value: true
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 150.0
+        - Name: Button7
+          Type: MomentaryButton
+          Children:
+          - Name: Active
+            Type: BaseDataVariableType
+            DataType: Boolean
+            AccessLevel: Read
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable7"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 1
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -1806,16 +1982,11 @@ Children:
                 ReferenceType: HasParameter
                 ModellingRule: Optional
                 Value: "#b3b3b3"
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 1010.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 440.0
+            Value: 439.0
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -1836,121 +2007,51 @@ Children:
             DataType: Duration
             ModellingRule: Optional
             Value: "0:00:00:5.0000000"
-          - Name: MouseClickEventHandler1
-            Type: EventHandler
+          - Name: Enabled
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
             Children:
-            - Name: ListenEventType
-              Type: PropertyType
-              DataType: NodeId
-              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-            - Name: MethodsToCall
-              Type: BaseObjectType
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
               Children:
-              - Name: MethodContainer1
-                Type: BaseObjectType
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
                 Children:
-                - Name: ns=3;ObjectPointer
-                  Type: NodePointer
-                  DataType: NodeId
-                  Value: "/Objects/Commands/VariableCommands"
-                  Children:
-                  - Name: Kind
-                    Type: PropertyType
-                    DataType: NodeId
-                    Value: "/Types/ObjectTypes/BaseObjectType"
-                - Name: ns=3;Method
-                  Type: BaseDataVariableType
-                  DataType: String
-                  Value: "Set"
-                - Name: InputArguments
-                  Type: BaseObjectType
-                  Children:
-                  - Name: VariableToModify
-                    Type: BaseDataVariableType
-                    DataType: VariablePointer
-                    Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable7"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                    Value: false
-                  - Name: ArrayIndex
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                    ValueRank: ScalarOrOneDimension
-                    Value: 0
-              - Name: MethodContainer2
-                Type: BaseObjectType
-                Children:
-                - Name: ns=3;ObjectPointer
-                  Type: NodePointer
-                  DataType: NodeId
-                  Value: "/Objects/Commands/VariableCommands"
-                  Children:
-                  - Name: Kind
-                    Type: PropertyType
-                    DataType: NodeId
-                    Value: "/Types/ObjectTypes/BaseObjectType"
-                - Name: ns=3;Method
-                  Type: BaseDataVariableType
-                  DataType: String
-                  Value: "Set"
-                - Name: InputArguments
-                  Type: BaseObjectType
-                  Children:
-                  - Name: VariableToModify
-                    Type: BaseDataVariableType
-                    DataType: VariablePointer
-                    Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable7"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                    Value: true
-                  - Name: ArrayIndex
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                    ValueRank: ScalarOrOneDimension
-                    Value: 0
-            - Name: EventArguments
-              Type: MouseClickEvent
-              Children:
-              - Name: EventId
-                Type: PropertyType
-                DataType: ByteString
-                Value: ""
-              - Name: EventType
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-              - Name: SourceNode
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-              - Name: SourceName
-                Type: PropertyType
-                DataType: String
-                Value: ""
-              - Name: Time
-                Type: PropertyType
-                DataType: UtcTime
-                Value: "1601-01-01T00:00:00.0000000"
-              - Name: ReceiveTime
-                Type: PropertyType
-                DataType: UtcTime
-                Value: "1601-01-01T00:00:00.0000000"
-              - Name: Message
-                Type: PropertyType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              - Name: Severity
-                Type: PropertyType
-                DataType: UInt16
-                Value: 0
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Pima_21CFR_Part11/Model/AnimationInstance/Button"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: false
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: true
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"Up"}
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 150.0
         - Name: Label8
           Type: Label
           Children:
@@ -1969,11 +2070,6 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 150.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 849.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1994,6 +2090,21 @@ Children:
             DataType: TextVerticalAlignment
             ModellingRule: Optional
             Value: 1
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
         - Name: Label9
           Type: Label
           Children:
@@ -2012,11 +2123,6 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 150.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 849.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2037,6 +2143,21 @@ Children:
             DataType: TextVerticalAlignment
             ModellingRule: Optional
             Value: 1
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
         - Name: Label10
           Type: Label
           Children:
@@ -2055,11 +2176,6 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 150.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 849.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2080,6 +2196,21 @@ Children:
             DataType: TextVerticalAlignment
             ModellingRule: Optional
             Value: 1
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
         - Name: Label11
           Type: Label
           Children:
@@ -2098,11 +2229,6 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 150.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 849.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2123,6 +2249,21 @@ Children:
             DataType: TextVerticalAlignment
             ModellingRule: Optional
             Value: 1
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
         - Name: Button8
           Type: MomentaryButton
           Children:
@@ -2131,36 +2272,21 @@ Children:
             DataType: Boolean
             AccessLevel: Read
             Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable8"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 1
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: ConditionalConverter1
-              Type: ConditionalConverter
-              Children:
-              - Name: Condition
-                Type: BaseDataVariableType
-                DataType: Boolean
-                ReferenceType: HasSource
-                Value: false
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable8"
-              - Name: TrueValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Down"}
-              - Name: FalseValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":""}
+            Value: {"LocaleId":"en-US","Text":"Down"}
           - Name: BackgroundColor
             Type: BaseDataVariableType
             DataType: Color
@@ -2191,11 +2317,6 @@ Children:
                 ReferenceType: HasParameter
                 ModellingRule: Optional
                 Value: "#b3b3b3"
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 1009.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2221,118 +2342,43 @@ Children:
             DataType: Duration
             ModellingRule: Optional
             Value: "0:00:00:5.0000000"
-          - Name: MouseClickEventHandler1
-            Type: EventHandler
+          - Name: Enabled
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
             Children:
-            - Name: ListenEventType
-              Type: PropertyType
-              DataType: NodeId
-              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-            - Name: MethodsToCall
-              Type: BaseObjectType
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
               Children:
-              - Name: MethodContainer1
-                Type: BaseObjectType
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
                 Children:
-                - Name: ns=3;ObjectPointer
-                  Type: NodePointer
-                  DataType: NodeId
-                  Value: "/Objects/Commands/VariableCommands"
-                  Children:
-                  - Name: Kind
-                    Type: PropertyType
-                    DataType: NodeId
-                    Value: "/Types/ObjectTypes/BaseObjectType"
-                - Name: ns=3;Method
-                  Type: BaseDataVariableType
-                  DataType: String
-                  Value: "Set"
-                - Name: InputArguments
-                  Type: BaseObjectType
-                  Children:
-                  - Name: VariableToModify
-                    Type: BaseDataVariableType
-                    DataType: VariablePointer
-                    Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable8"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Int32
-                    Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                    Value: 0
-                  - Name: ArrayIndex
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                    ValueRank: ScalarOrOneDimension
-                    Value: 0
-              - Name: MethodContainer2
-                Type: BaseObjectType
-                Children:
-                - Name: ns=3;ObjectPointer
-                  Type: NodePointer
-                  DataType: NodeId
-                  Value: "/Objects/Commands/VariableCommands"
-                  Children:
-                  - Name: Kind
-                    Type: PropertyType
-                    DataType: NodeId
-                    Value: "/Types/ObjectTypes/BaseObjectType"
-                - Name: ns=3;Method
-                  Type: BaseDataVariableType
-                  DataType: String
-                  Value: "Set"
-                - Name: InputArguments
-                  Type: BaseObjectType
-                  Children:
-                  - Name: VariableToModify
-                    Type: BaseDataVariableType
-                    DataType: VariablePointer
-                    Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable8"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Int32
-                    Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                    Value: 1
-                  - Name: ArrayIndex
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                    ValueRank: ScalarOrOneDimension
-                    Value: 0
-            - Name: EventArguments
-              Type: MouseClickEvent
-              Children:
-              - Name: EventId
-                Type: PropertyType
-                DataType: ByteString
-                Value: ""
-              - Name: EventType
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-              - Name: SourceNode
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-              - Name: SourceName
-                Type: PropertyType
-                DataType: String
-                Value: ""
-              - Name: Time
-                Type: PropertyType
-                DataType: UtcTime
-                Value: "1601-01-01T00:00:00.0000000"
-              - Name: ReceiveTime
-                Type: PropertyType
-                DataType: UtcTime
-                Value: "1601-01-01T00:00:00.0000000"
-              - Name: Message
-                Type: PropertyType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              - Name: Severity
-                Type: PropertyType
-                DataType: UInt16
-                Value: 0
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Pima_21CFR_Part11/Model/AnimationInstance/Button"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: false
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: true
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 150.0

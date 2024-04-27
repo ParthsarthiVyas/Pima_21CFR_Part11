@@ -1011,7 +1011,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 49.0
+            Value: 50.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1053,7 +1053,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 480.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1063,7 +1063,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 2
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -1073,7 +1073,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -1136,7 +1136,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 490.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1156,6 +1156,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
         - Name: Rectangle10
           Type: Rectangle
           Children:
@@ -1178,7 +1188,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 480.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1188,7 +1198,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 2
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -1198,7 +1208,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -1261,7 +1271,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 490.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1281,6 +1291,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
         - Name: Rectangle11
           Type: Rectangle
           Children:
@@ -1303,7 +1323,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 480.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1313,7 +1333,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 2
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -1323,7 +1343,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -1386,7 +1406,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 480.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1396,7 +1416,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 2
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -1406,7 +1426,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -1469,7 +1489,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 490.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1489,6 +1509,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
         - Name: Rectangle13
           Type: Rectangle
           Children:
@@ -1511,7 +1541,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 480.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1521,7 +1551,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 2
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -1531,7 +1561,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -1594,7 +1624,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 490.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1614,6 +1644,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
         - Name: Rectangle14
           Type: Rectangle
           Children:
@@ -1636,7 +1676,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 480.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1646,7 +1686,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 2
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -1656,7 +1696,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -1719,7 +1759,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 490.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1739,6 +1779,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
         - Name: Label14
           Type: Label
           Children:
@@ -1761,7 +1811,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 489.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1781,6 +1831,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
         - Name: Rectangle15
           Type: Rectangle
           Children:
@@ -1803,7 +1863,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 479.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1813,7 +1873,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 2
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -1823,7 +1883,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -1886,7 +1946,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 489.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1906,6 +1966,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
         - Name: Rectangle16
           Type: Rectangle
           Children:
@@ -1928,7 +1998,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 479.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -1938,7 +2008,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 2
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -1948,7 +2018,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -2011,7 +2081,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 489.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2031,6 +2101,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
         - Name: Rectangle17
           Type: Rectangle
           Children:
@@ -2053,7 +2133,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 910.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2063,7 +2143,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 1
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -2073,7 +2153,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 40.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -2136,7 +2216,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 920.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2156,6 +2236,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 40.0
         - Name: Rectangle18
           Type: Rectangle
           Children:
@@ -2178,7 +2268,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 910.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2188,7 +2278,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 1
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -2198,7 +2288,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 40.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -2261,7 +2351,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 910.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2271,7 +2361,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 1
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -2281,7 +2371,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 40.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -2344,7 +2434,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 920.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2364,6 +2454,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 40.0
         - Name: Rectangle20
           Type: Rectangle
           Children:
@@ -2386,7 +2486,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 910.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2396,7 +2496,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 1
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -2406,7 +2506,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 40.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -2469,7 +2569,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 920.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2489,6 +2589,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 40.0
         - Name: Rectangle21
           Type: Rectangle
           Children:
@@ -2511,7 +2621,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 910.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2521,7 +2631,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 1
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -2531,7 +2641,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 40.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -2594,7 +2704,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 920.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2614,6 +2724,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 40.0
         - Name: Label21
           Type: Label
           Children:
@@ -2636,7 +2756,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 919.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2656,6 +2776,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 40.0
         - Name: Rectangle22
           Type: Rectangle
           Children:
@@ -2678,7 +2808,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 39.0
+            Value: 40.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2761,7 +2891,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 49.0
+            Value: 50.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2803,7 +2933,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 909.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2813,7 +2943,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 1
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -2823,7 +2953,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 40.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -2886,7 +3016,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 909.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2896,7 +3026,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 1
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -2906,7 +3036,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 40.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -2969,7 +3099,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 919.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -2989,6 +3119,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 40.0
         - Name: Rectangle24
           Type: Rectangle
           Children:
@@ -3011,7 +3151,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 909.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -3021,7 +3161,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 1
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -3031,7 +3171,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 40.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -3094,7 +3234,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 919.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -3114,6 +3254,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 40.0
         - Name: Label25
           Type: Label
           Children:
@@ -3136,7 +3286,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 918.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -3156,6 +3306,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 40.0
   - Name: Width
     Type: BaseVariableType
     DataType: Size
@@ -3443,7 +3603,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -3568,7 +3728,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -3693,7 +3853,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -3818,7 +3978,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -3901,7 +4061,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -4026,7 +4186,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -4151,7 +4311,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -4256,7 +4416,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 49.0
+            Value: 50.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -4298,7 +4458,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 480.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -4308,7 +4468,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 2
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -4318,7 +4478,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -4381,7 +4541,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 490.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -4401,6 +4561,11 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
         - Name: Rectangle9
           Type: Rectangle
           Children:
@@ -4423,7 +4588,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 480.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -4433,7 +4598,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 2
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -4443,7 +4608,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -4506,7 +4671,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 490.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -4526,6 +4691,11 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
         - Name: Rectangle10
           Type: Rectangle
           Children:
@@ -4548,7 +4718,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 480.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -4558,7 +4728,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 2
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -4568,7 +4738,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -4631,7 +4801,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 490.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -4651,6 +4821,11 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
         - Name: Rectangle11
           Type: Rectangle
           Children:
@@ -4673,7 +4848,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 480.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -4683,7 +4858,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 2
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -4693,7 +4868,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -4756,7 +4931,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 480.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -4766,7 +4941,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 2
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -4776,7 +4951,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -4839,7 +5014,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 490.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -4859,6 +5034,11 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
         - Name: Rectangle13
           Type: Rectangle
           Children:
@@ -4881,7 +5061,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 480.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -4891,7 +5071,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 2
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -4901,7 +5081,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -4964,7 +5144,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 490.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -4984,6 +5164,11 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
         - Name: Rectangle14
           Type: Rectangle
           Children:
@@ -5006,7 +5191,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 480.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5016,7 +5201,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 2
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -5026,7 +5211,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 0.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -5089,7 +5274,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 490.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5109,6 +5294,11 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
         - Name: Label14
           Type: Label
           Children:
@@ -5131,7 +5321,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 489.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5151,6 +5341,11 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
         - Name: Rectangle15
           Type: Rectangle
           Children:
@@ -5173,7 +5368,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 910.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5183,7 +5378,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 1
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -5193,7 +5388,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 40.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -5256,7 +5451,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 920.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5276,6 +5471,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 40.0
         - Name: Rectangle16
           Type: Rectangle
           Children:
@@ -5298,7 +5503,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 910.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5308,7 +5513,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 1
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -5318,7 +5523,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 40.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -5381,7 +5586,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 920.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5401,6 +5606,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 40.0
         - Name: Rectangle17
           Type: Rectangle
           Children:
@@ -5423,7 +5638,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 910.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5433,7 +5648,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 1
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -5443,7 +5658,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 40.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -5506,7 +5721,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 920.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5526,6 +5741,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 40.0
         - Name: Rectangle18
           Type: Rectangle
           Children:
@@ -5548,7 +5773,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 910.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5558,7 +5783,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 1
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -5568,7 +5793,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 40.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -5631,7 +5856,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 910.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5641,7 +5866,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 1
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -5651,7 +5876,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 40.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -5714,7 +5939,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 920.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5734,6 +5959,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 40.0
         - Name: Rectangle20
           Type: Rectangle
           Children:
@@ -5756,7 +5991,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 909.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5766,7 +6001,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 1
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -5776,7 +6011,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 40.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -5839,7 +6074,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 920.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5859,6 +6094,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 40.0
         - Name: Rectangle21
           Type: Rectangle
           Children:
@@ -5881,7 +6126,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 910.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5891,7 +6136,7 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 0
+            Value: 1
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -5901,7 +6146,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1000.0
+            Value: 40.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -5964,7 +6209,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 920.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5984,6 +6229,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 40.0
         - Name: Label21
           Type: Label
           Children:
@@ -6006,7 +6261,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 919.0
+            Value: 0.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -6026,6 +6281,16 @@ Children:
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 40.0
   - Name: Width
     Type: BaseVariableType
     DataType: Size
