@@ -257,7 +257,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -1.0
+          Value: 15.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -358,7 +358,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -1.0
+          Value: 15.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -454,7 +454,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -1.0
+          Value: 15.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -502,7 +502,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -1.0
+          Value: 15.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -550,7 +550,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -1.0
+          Value: 15.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -603,7 +603,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -1.0
+          Value: 15.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -656,7 +656,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -1.0
+          Value: 15.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -709,7 +709,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -1.0
+          Value: 15.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -762,7 +762,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -1.0
+        Value: 15.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
