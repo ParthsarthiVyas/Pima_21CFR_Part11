@@ -1628,7 +1628,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"LOGIN"}
+      Value: {"LocaleId":"en-US","Text":"SHUTDOWN"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1663,7 +1663,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 50.0
+      Value: 45.0
     - Name: ImageHeight
       Type: BaseDataVariableType
       DataType: Size
@@ -2384,6 +2384,26 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 0.0
+    - Name: TextVerticalAlignment
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#0fafff"
+    - Name: FontFamily
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+      Value: ""
   - Name: Shutdown_button
     Type: Button
     Children:
@@ -2478,6 +2498,26 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 150.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#b3b3b3"
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
   - Name: Cancel_button
     Type: Button
     Children:
@@ -2500,7 +2540,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 150.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -2572,6 +2612,21 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#b3b3b3"
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment
