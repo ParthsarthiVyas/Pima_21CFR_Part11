@@ -1,0 +1,274 @@
+Name: Screen_Access
+Id: g=253563f983fa6a2a24eec45b5cb239e9
+Type: FolderType
+Children:
+- Name: Operator
+  Id: g=ff9953f20e276e32b278ec320734cc63
+  Type: BaseObjectType
+  Children:
+  - Name: Auto_Screen
+    Id: g=213c56bbd1a2596fc6bf4cbd1207160a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Manual_Screen
+    Id: g=a2ed9e19ffb149a60e226a1e2c0dff7b
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Calibration
+    Id: g=3107f3107e7d9b6eb9cad0d55902e55b
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Settings
+    Id: g=8ad381c69cb65ac892ab685676006069
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: I_O
+    Id: g=6c4d36e7ea0474f87c92968416c71688
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Batch
+    Id: g=8bd7ea404a684f388747d9f59c321ece
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Reports
+    Id: g=3fe6be5543ef9571422221ede9478d7a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Usermanagement
+    Id: g=3665bbc4e79c531b22ed3ff67bccdc02
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Alarm
+    Id: g=f94ee24f407166233e87a2ef995b7c64
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Recipe
+    Id: g=c38f555cb176bd21ca0016b26bd4f595
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Supervisor
+  Id: g=e54f5ea7dbaff13af5db8e5f07497ced
+  Type: BaseObjectType
+  Children:
+  - Name: Auto_Screen
+    Id: g=b5603bbc7245840533af28c88b50ed4a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Manual_Screen
+    Id: g=42b04577457a18c5367ba25bb8cd9880
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Calibration
+    Id: g=c1740769931f29027cd44365962a2180
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Settings
+    Id: g=03dc48897998d84e2b4624587b36604a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: I_O
+    Id: g=862ef9a2733961beb97b318c5588c826
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Batch
+    Id: g=b1816285a9072d0584703ad364f580cd
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Reports
+    Id: g=b77903748262ac0c988c9ad8a5339e4f
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Usermanagement
+    Id: g=7b5f89b10098e88537fe7be34f9f6bb5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Alarm
+    Id: g=9e373b72e7a4d8d5547e5525e21c50e9
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Recipe
+    Id: g=681bd39c43e493b5dd6da16b2f1208ec
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Manager
+  Id: g=2b63ccdb62e54360d32b78d73ade8cb4
+  Type: BaseObjectType
+  Children:
+  - Name: Auto_Screen
+    Id: g=b618a3810bd943647dfcef5be4185e68
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Manual_Screen
+    Id: g=12353f45838b3feece3e54b913002558
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Calibration
+    Id: g=a460ce9c7b93813ee1344b2b4a67a749
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Settings
+    Id: g=0c3fa2f275ea4ecc92b8ff3aa604c727
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: I_O
+    Id: g=cd6352edb42e038867337b4bcea802a6
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Batch
+    Id: g=9d28995916e3b39fd6fb0f7d11a3d11d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Reports
+    Id: g=96509575d7dd42be3349da4532359938
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Usermanagement
+    Id: g=3d44695cc1c09098984b6ef0606f732c
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Alarm
+    Id: g=cd5d182e2b292b6a530dfe1a8d294346
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Recipe
+    Id: g=bb5e4b030e68095e64c165703b40d95d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Engineer
+  Id: g=c7698f790bf510117aacc16355d9c6e6
+  Type: BaseObjectType
+  Children:
+  - Name: Auto_Screen
+    Id: g=ea706ea0d3267d5c1e4ebabb1b975d4d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Manual_Screen
+    Id: g=5730abde3b55ae770c18c8533abee913
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Calibration
+    Id: g=4db3e1b8314f8f7a83713f4c62846f7c
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Settings
+    Id: g=ad7463ec658094f456895f7c8944b4ee
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: I_O
+    Id: g=3a430e6dd0d945743a684e2c737c3837
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Batch
+    Id: g=3da3011537e5f100896eb82b7fddcc38
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Reports
+    Id: g=65427eb5530913aa1321102550dd56d8
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Usermanagement
+    Id: g=c2c534d15d06db02ca4869c094cc166f
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Alarm
+    Id: g=046bbd906e6cd233f3602a0b18d2e275
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Recipe
+    Id: g=4316858110b8dbeccbf688782e7af150
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Administrator
+  Id: g=fe15346278645156a3c8479484c64d0d
+  Type: BaseObjectType
+  Children:
+  - Name: Auto_Screen
+    Id: g=9c935d3013fbc7c3aae00a74824d5485
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Manual_Screen
+    Id: g=9d614b43d5cbbb37510fa9ea7cea55f1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Calibration
+    Id: g=c05605a571119081358599ccd64651a0
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Settings
+    Id: g=e401217b94e24281c556ae2aca5baea5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: I_O
+    Id: g=a74d8b54ea10888cca8fffd7301385cf
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Batch
+    Id: g=8b9086cbdf9eba73b01dbd5eb50e85c4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Reports
+    Id: g=da1e21e580a9c44fd0dc6febf4b62f65
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Usermanagement
+    Id: g=2471a6fd25cd441dddb075540af2fad5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Alarm
+    Id: g=d740d13a212fe4ed4e434aba50e10c70
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Recipe
+    Id: g=0d52410c7dfef333db63c89c24297068
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false

@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [89,2],
+    "Dimensions": [93,2],
     "Body": [
      "","en-US",
      "LoginFormLoginSuccessful","Login successful",
@@ -99,6 +99,10 @@ Children:
      "ChangesAppliedSuccessfully","Changes applied successfully",
      "Create","Create",
      "No","No",
-     "Yes","Yes"
+     "Yes","Yes",
+     "ApplicationFolder","Application folder",
+     "Filename","File name",
+     "Size","Size",
+     "ProjectFolder","Project folder"
     ]
    }

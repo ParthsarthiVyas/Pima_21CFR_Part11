@@ -62,6 +62,19 @@ Children:
         Type: PropertyType
         DataType: NodePointerNodeClass
         Value: 2
+    - Name: Node1
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/Pima_21CFR_Part11/Model/Screen_Access"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
   - Name: WriteDelay
     Type: BaseDataVariableType
     DataType: Duration
