@@ -181,22 +181,32 @@ public class RecipeController1 : BaseNetLogic
                 return;
             }
         }
+        string loderecipe = Project.Current.GetVariable("Model/Batch/Batch_Object/RecipeName").Value;
 
-        try
+        if (loderecipe == name)
         {
-            schema.DeleteStoreRecipe(name);
-
-            //-----------Customized Logic Start-----------------
-            // Recipe Deleted Activity Logging into Audit Database
-            AuditTrailLogging RecipeDeletedLog = new AuditTrailLogging();
-            RecipeDeletedLog.LogIntoAudit("Recipe deleted", name, Session.User.BrowseName, "RecipeApplicationEvent");
-            //-----------Customized Logic End-------------------
-
-            SetFeedback(1, $"{GetLocalizedTextString("RecipeControllerRecipe")} {name} {GetLocalizedTextString("RecipeControllerDeleted")}");
+            SetFeedback(1, "Recipe Can Not Deleted, Selected Recipe Is Running");
+           
         }
-        catch (Exception e)
-        {
-            SetFeedback(2, e.Message);
+        else 
+        { 
+
+            try
+            {
+                schema.DeleteStoreRecipe(name);
+
+                //-----------Customized Logic Start-----------------
+                // Recipe Deleted Activity Logging into Audit Database
+                AuditTrailLogging RecipeDeletedLog = new AuditTrailLogging();
+                RecipeDeletedLog.LogIntoAudit("Recipe deleted", name, Session.User.BrowseName, "RecipeApplicationEvent");
+                //-----------Customized Logic End-------------------
+
+                SetFeedback(1, $"{GetLocalizedTextString("RecipeControllerRecipe")} {name} {GetLocalizedTextString("RecipeControllerDeleted")}");
+            }
+            catch (Exception e)
+            {
+                SetFeedback(2, e.Message);
+            }
         }
     }
 

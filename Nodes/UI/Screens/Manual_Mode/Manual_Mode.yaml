@@ -292,6 +292,46 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../Message@NodeId"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: "Main Motor on"
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -314,12 +354,10 @@ Children:
                     - Name: VariableToModify
                       Type: BaseDataVariableType
                       DataType: VariablePointer
-                      Description: {"NamespaceIndex":3,"TextId":"ToggleVariableToModifyDescription"}
                       Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable1"
                     - Name: ArrayIndex
                       Type: BaseDataVariableType
                       DataType: UInt32
-                      Description: {"NamespaceIndex":3,"TextId":"ToggleArrayIndexDescription"}
                       ValueRank: ScalarOrOneDimension
                       Value: 0
               - Name: EventArguments
@@ -387,6 +425,21 @@ Children:
                   ReferenceType: HasParameter
                   ModellingRule: Optional
                   Value: true
+            - Name: Message
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "0"
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Pima_21CFR_Part11/UI/SigningWorkflows/SigningEventLogger/EventFieldsToLog/Message"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
           - Name: Button2
             Type: Button
             Children:
@@ -1963,6 +2016,53 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 0.0
+          - Name: Label1
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Pima_21CFR_Part11/UI/SigningWorkflows/SigningEventLogger/EventFieldsToLog/Message"
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 150.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 156.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -171.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 15.0
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+              Value: 0
+            - Name: TextVerticalAlignment
+              Type: BaseVariableType
+              DataType: TextVerticalAlignment
+              ModellingRule: Optional
+              Value: 1
         - Name: MultistateImage1
           Type: MultiStateImage
           Children:

@@ -1,0 +1,24 @@
+Name: Flow_Calibration
+Type: FolderType
+Children:
+- Name: ROC
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Offset
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Divider
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Current Raw
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Current Flow
+  Id: g=4cfa1bdf58bd4543e2e768b7564e8276
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0

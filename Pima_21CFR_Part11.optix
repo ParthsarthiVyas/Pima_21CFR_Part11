@@ -130,15 +130,15 @@ Project:
    Module: FTOptix.Alarm
    Version: 2.0
  Statistics:
-  TotalNodeCount: 19327
-  Objects: 2463
-  ObjectTypes: 64
-  Variables: 16773
+  TotalNodeCount: 30205
+  Objects: 4115
+  ObjectTypes: 67
+  Variables: 25995
   VariableTypes: 0
   DataTypes: 0
-  Methods: 27
+  Methods: 28
   References: 205
   ReferenceTypes: 0
-  Files: 53
+  Files: 58
  Nodes:
  - File: Nodes/Pima_21CFR_Part11.yaml

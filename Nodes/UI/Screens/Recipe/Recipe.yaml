@@ -224,6 +224,11 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "../../RecipeController1/Message"
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 60.0
         - Name: SaveButton
           Type: Button
           Children:

@@ -1,0 +1,28 @@
+Name: Temp_Calibration
+Type: FolderType
+Children:
+- Name: Raw Min
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Raw Max
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Temp Min
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Temp Max
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Current Raw
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Current Temp
+  Id: g=02a180c911829254fa7e90a8edc730a5
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0

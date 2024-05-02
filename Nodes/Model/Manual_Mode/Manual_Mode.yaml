@@ -39,3 +39,10 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
+- Name: Variable1Changed
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Variable1"

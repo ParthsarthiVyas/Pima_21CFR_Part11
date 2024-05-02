@@ -1498,7 +1498,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Value: "/Objects/Pima_21CFR_Part11/UI/Screens/Calibration/Calibration"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
