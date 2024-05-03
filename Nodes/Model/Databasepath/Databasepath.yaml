@@ -214,7 +214,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ReferenceType: HasParameter
-      Value: {"LocaleId":"en-US","Text":"D:\\BatchDB_{0}_{1}_{2}_{3}_{4}_{5}.bak"}
+      Value: {"LocaleId":"en-US","Text":"D:\\RecipeDB_{0}_{1}_{2}_{3}_{4}_{5}.bak"}
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -269,7 +269,7 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../NetLogic/mm_dd_yyyy_clock1/second"
-- Name: BatchDB_Restore
+- Name: DB_Restore
   Type: BaseDataVariableType
   DataType: String
-  Value: "0"
+  Value: ""

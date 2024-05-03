@@ -205,7 +205,7 @@ public class EditUserDetailPanelLogic : BaseNetLogic
             return;
 
         var groupCheckBoxes = panel.Refs.GetObjects(OpcUa.ReferenceTypes.HasOrderedComponent, false);
-        string usergroupsselected = "";
+        //string usergroupsselected = "";
         List<string> _usergroupsselected = new List<string>();
         List<string> _usergroupsremoved = new List<string>();
         bool GroupChangeDetected = false;

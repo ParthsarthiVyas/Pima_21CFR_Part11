@@ -23,8 +23,6 @@ using FTOptix.Retentivity;
 using FTOptix.AuditSigning;
 using FTOptix.CommunicationDriver;
 using FTOptix.Core;
-using FTOptix.UI;
-using FTOptix.Alarm;
 using FTOptix.MicroController;
 using FTOptix.System;
 #endregion
