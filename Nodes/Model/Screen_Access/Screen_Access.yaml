@@ -56,6 +56,22 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
+  - Name: AuditSigning Signature
+    Id: g=13c2401ec9b0801654bb6549f368aa50
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=dd0e1abbbcb8cfe7aedc2b3342e2510f
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=e5fc1fc24b5818b7aa2f08b7946bc9f8
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=a43d898f9090ab4df9b7a70ab76421ad
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 0
 - Name: Supervisor
   Id: g=e54f5ea7dbaff13af5db8e5f07497ced
   Type: BaseObjectType
@@ -110,6 +126,17 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
+  - Name: AuditSigning Signature
+    Id: g=92c6073b1b70369cbf09535861883a98
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=0808ebb54014ab8677d4182eff2cc87a
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=bba6d83e1f3199eaf227e91760a770af
+      Type: BaseObjectType
 - Name: Manager
   Id: g=2b63ccdb62e54360d32b78d73ade8cb4
   Type: BaseObjectType
@@ -164,6 +191,17 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
+  - Name: AuditSigning Signature
+    Id: g=314e3c0bb04f91cbc73b4ef4a8208d8a
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=27b02865613b099011556712d1eb6c28
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=86914a1613e20d3986ad6bd7b2dc83cf
+      Type: BaseObjectType
 - Name: Engineer
   Id: g=c7698f790bf510117aacc16355d9c6e6
   Type: BaseObjectType
@@ -218,6 +256,17 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
+  - Name: AuditSigning Signature
+    Id: g=76960b017a12c4b405f56ba09465ee8a
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=8062caaa8af7227e47ed4137ca0d5320
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=91338dc735fe34c01e3f5e104a5e095d
+      Type: BaseObjectType
 - Name: Administrator
   Id: g=fe15346278645156a3c8479484c64d0d
   Type: BaseObjectType
@@ -272,3 +321,14 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
+  - Name: AuditSigning Signature
+    Id: g=0f5f8e2a59952b41433800a7ba303109
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=426477a1fd7d0d56849ae970bcb93751
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=7b5f772f178fd738ccc0356faf492b61
+      Type: BaseObjectType

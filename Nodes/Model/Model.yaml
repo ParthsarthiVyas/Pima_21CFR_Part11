@@ -266,10 +266,3 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: MessageChanged
-  Type: VariableChangedEventDispatcher
-  Children:
-  - Name: VariableNodePath
-    Type: BaseVariableType
-    DataType: NodePath
-    Value: "../Message"
