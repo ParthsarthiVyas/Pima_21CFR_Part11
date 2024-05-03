@@ -1,41 +1,41 @@
 Name: Manual_Mode
 Type: FolderType
 Children:
-- Name: Variable1
+- Name: Main_motor
   Id: g=83aece898e10832295fa79e33407b4f6
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
-- Name: Variable2
+- Name: Conveyor
   Id: g=a14a8e1f2099181c7dcb726f77c93b3b
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
-- Name: Variable3
+- Name: Vacuum_Pump
   Id: g=616c7bf864b4f6b90b7c5e19fb0e44ba
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
-- Name: Variable4
+- Name: Infeed
   Id: g=0d64460a1f67aaee39498abf6749779d
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
-- Name: Variable5
+- Name: Rejection_Valve
   Id: g=b219982fbe89e03fb60036a349b758d1
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
-- Name: Variable6
+- Name: Vibrator
   Id: g=7547f53f5dcfb62061a7fef39ad0ec1d
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
-- Name: Variable7
+- Name: Head_Up
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
-- Name: Variable8
+- Name: Head_Down
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
@@ -45,4 +45,46 @@ Children:
   - Name: VariableNodePath
     Type: BaseVariableType
     DataType: NodePath
-    Value: "../Variable1"
+    Value: "../Main_motor"
+- Name: ConveyorChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Conveyor"
+- Name: Vacuum_PumpChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Vacuum_Pump"
+- Name: InfeedChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Infeed"
+- Name: Rejection_ValveChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Rejection_Valve"
+- Name: VibratorChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Vibrator"
+- Name: Head_UpChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Head_Up"

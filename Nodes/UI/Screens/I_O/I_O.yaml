@@ -3631,7 +3631,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable1"
+                  Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Main_motor"
               - Name: TrueValue
                 Type: BaseDataVariableType
                 DataType: Color
@@ -3756,7 +3756,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable2"
+                  Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Conveyor"
               - Name: TrueValue
                 Type: BaseDataVariableType
                 DataType: Color
@@ -3881,7 +3881,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable3"
+                  Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Vacuum_Pump"
               - Name: TrueValue
                 Type: BaseDataVariableType
                 DataType: Color
@@ -4006,7 +4006,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable4"
+                  Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Infeed"
               - Name: TrueValue
                 Type: BaseDataVariableType
                 DataType: Color

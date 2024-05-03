@@ -9,18 +9,54 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
+    Children:
+    - Name: AuditSigning Signature
+      Type: AuditInfo
+      ReferenceType: NonHierarchicalOwning
+      Children:
+      - Name: Users
+        Type: BaseObjectType
+      - Name: Groups
+        Type: BaseObjectType
   - Name: LowercaseCharacter
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
+    Children:
+    - Name: AuditSigning Signature
+      Type: AuditInfo
+      ReferenceType: NonHierarchicalOwning
+      Children:
+      - Name: Users
+        Type: BaseObjectType
+      - Name: Groups
+        Type: BaseObjectType
   - Name: SpecialCharacter
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
+    Children:
+    - Name: AuditSigning Signature
+      Type: AuditInfo
+      ReferenceType: NonHierarchicalOwning
+      Children:
+      - Name: Users
+        Type: BaseObjectType
+      - Name: Groups
+        Type: BaseObjectType
   - Name: NumericCharacter
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
+    Children:
+    - Name: AuditSigning Signature
+      Type: AuditInfo
+      ReferenceType: NonHierarchicalOwning
+      Children:
+      - Name: Users
+        Type: BaseObjectType
+      - Name: Groups
+        Type: BaseObjectType
   - Name: InvalidLoginAttemptLimit
     Type: BaseDataVariableType
     DataType: UInt16

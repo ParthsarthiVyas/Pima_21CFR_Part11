@@ -26,3 +26,10 @@ Children:
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
+- Name: Raw MinChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Raw Min"

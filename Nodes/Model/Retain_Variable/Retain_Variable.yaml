@@ -92,33 +92,152 @@ Children:
   Type: BaseDataVariableType
   DataType: Duration
   Value: "0:00:10:0.0000000"
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=5b4bcb1623414f49172c646d291a2577
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=8ee7d0354c6f040f720f878943772761
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=ec5cab2536a273b0dd4ca1783ff4904c
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=761f9faa215cc2ca163878b9d4a6723c
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 0
 - Name: MinPasswordAge
   Id: g=3c83ecd978e8cedcc432301c6fb0dc44
   Type: BaseDataVariableType
   DataType: UInt16
   Value: 0
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=f29d39be7440f2f04b07cefaa8f045c8
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=83dd8f46a6c7e269e15e5471ac33ac03
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=82c6b50585ec6f83bb61be2ddf08e5aa
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=c2927611206bcba81e3293088d6d4aeb
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 0
 - Name: MaxPasswordAge
   Id: g=3f7817fc6e0abb8f2daf3c418536b6c8
   Type: BaseDataVariableType
   DataType: UInt16
   Value: 0
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=3f4ce9b148c22c1e765be3b8ff67ddd7
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=c8159feae5d5024fc26c7602660947c8
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=45308c03c2494646047368d8f4d4712f
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=62dbecc6936305852f2b954c18eee7a7
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 0
 - Name: InvalidLoginAttempt
   Id: g=93b293dd6dc4a1c2e114556b69d1e1e2
   Type: BaseDataVariableType
   DataType: UInt16
   Value: 0
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=d36c0fb65ade732e9dbc10c2468010f5
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=a63a19fa8f136fc64e20562326d0618d
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=8d9263732c4912474743b866711f39db
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=fc8bef0f7cf82932fc43de76e2f0426d
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 0
 - Name: PasswordExpiryDays
   Id: g=69f4d20eedb5b279b29b79d4ed715195
   Type: BaseDataVariableType
   DataType: UInt16
   Value: 0
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=f21a1745e098dfd3ef12369058277e36
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=bcf99a8f0a77d6688c8a30fd06ff3b8a
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=f4cee98d48c8403f5cea083c52431f8e
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=1bd458716135e59ae9720f7149514db8
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 0
 - Name: EnforcePasswordHistory
   Id: g=0866a56ad3dceb034de8bf9230508198
   Type: BaseDataVariableType
   DataType: UInt16
   Value: 0
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=8d52e5af4b55a8df63048172bc92b4ee
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=9fdca5379365aaf46b666e72051e4511
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=2ab7c68a0ac3bfc246a76560ca8a25e8
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=cd7ac4452c08b26569ff1a7adc8ec42b
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 0
 - Name: MinPasswordLength
   Id: g=c122dc4d72fb0402c6a2ad4e55a3b6d9
   Type: BaseDataVariableType
   DataType: UInt16
   Value: 0
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=24008898af0ea6ef819d9316ce93673d
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=c8cb3ed489f13c63913af193c1fec72a
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=925e186fd245e03285e036b61a97e95f
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=976f604c8f2ead264890ba9fdb422096
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 0

@@ -74,6 +74,13 @@ Children:
     Type: BaseDataVariableType
     DataType: Int16
     Value: 0
+  - Name: ButtonChanged
+    Type: VariableChangedEventDispatcher
+    Children:
+    - Name: VariableNodePath
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: "../Button"
 - Name: Animation
   Id: g=4e8e0f81609331d2a07228ddb874f1bc
   Supertype: BaseObjectType
@@ -245,9 +252,20 @@ Children:
   DataType: Int16
   Value: 0
 - Name: Message
+  Id: g=8c27beac59bd8c31f2fc2025543a574d
   Type: BaseDataVariableType
   DataType: String
   Value: "0"
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../UI/SigningWorkflows/SigningEventLogger/EventFieldsToLog/Message"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: MessageChanged
   Type: VariableChangedEventDispatcher
   Children:

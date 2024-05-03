@@ -239,7 +239,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable1"
+                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Main_motor"
                 - Name: TrueValue
                   Type: BaseDataVariableType
                   DataType: Color
@@ -269,7 +269,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable1"
+                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Main_motor"
                 - Name: TrueValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
@@ -315,17 +315,57 @@ Children:
                       Type: BaseDataVariableType
                       DataType: VariablePointer
                       Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../../../../Message@NodeId"
+                      Value: "/Objects/Pima_21CFR_Part11/Model/Message"
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: String
                       Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
                       Value: "Main Motor on"
+                      Children:
+                      - Name: KeyValueConverter1
+                        Type: ValueMapConverter
+                        Children:
+                        - Name: Source
+                          Type: BaseDataVariableType
+                          DataType: BaseDataType
+                          ReferenceType: HasSource
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Main_motor"
+                        - Name: Pairs
+                          Type: BaseObjectType
+                          ModellingRule: None
+                          Children:
+                          - Name: Pair
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              ModellingRule: None
+                              Value: false
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "Main Motor On"
+                          - Name: Pair1
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              ModellingRule: None
+                              Value: true
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "Main Motor Off"
                     - Name: ArrayIndex
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -354,7 +394,7 @@ Children:
                     - Name: VariableToModify
                       Type: BaseDataVariableType
                       DataType: VariablePointer
-                      Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable1"
+                      Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Main_motor"
                     - Name: ArrayIndex
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -425,21 +465,6 @@ Children:
                   ReferenceType: HasParameter
                   ModellingRule: Optional
                   Value: true
-            - Name: Message
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "0"
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/Pima_21CFR_Part11/UI/SigningWorkflows/SigningEventLogger/EventFieldsToLog/Message"
-                Children:
-                - Name: Mode
-                  Type: BaseVariableType
-                  DataType: DynamicLinkMode
-                  ModellingRule: Optional
-                  Value: 2
           - Name: Button2
             Type: Button
             Children:
@@ -460,7 +485,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable2"
+                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Conveyor"
                 - Name: TrueValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
@@ -510,7 +535,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable2"
+                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Conveyor"
                 - Name: TrueValue
                   Type: BaseDataVariableType
                   DataType: Color
@@ -533,6 +558,84 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Pima_21CFR_Part11/Model/Message@NodeId"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: "Main Motor on"
+                      Children:
+                      - Name: KeyValueConverter1
+                        Type: ValueMapConverter
+                        Children:
+                        - Name: Source
+                          Type: BaseDataVariableType
+                          DataType: BaseDataType
+                          ReferenceType: HasSource
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Conveyor"
+                        - Name: Pairs
+                          Type: BaseObjectType
+                          Children:
+                          - Name: Pair
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              Value: false
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Conveyor On"
+                          - Name: Pair1
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              Value: true
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Conveyor Off"
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -556,7 +659,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: VariablePointer
                       Description: {"NamespaceIndex":3,"TextId":"ToggleVariableToModifyDescription"}
-                      Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable2"
+                      Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Conveyor"
                     - Name: ArrayIndex
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -628,6 +731,15 @@ Children:
                   ReferenceType: HasParameter
                   ModellingRule: Optional
                   Value: true
+            - Name: Style
+              Type: BaseDataVariableType
+              DataType: String
+              ModellingRule: Optional
+              Value: "Default"
+            - Name: Variable1
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "0"
           - Name: Button3
             Type: Button
             Children:
@@ -648,7 +760,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable3"
+                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Vacuum_Pump"
                 - Name: TrueValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
@@ -698,7 +810,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable3"
+                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Vacuum_Pump"
                 - Name: TrueValue
                   Type: BaseDataVariableType
                   DataType: Color
@@ -721,6 +833,84 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Pima_21CFR_Part11/Model/Message@NodeId"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: "Main Motor on"
+                      Children:
+                      - Name: KeyValueConverter1
+                        Type: ValueMapConverter
+                        Children:
+                        - Name: Source
+                          Type: BaseDataVariableType
+                          DataType: BaseDataType
+                          ReferenceType: HasSource
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Vacuum_Pump"
+                        - Name: Pairs
+                          Type: BaseObjectType
+                          Children:
+                          - Name: Pair
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              Value: false
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Vacuum Pump On"
+                          - Name: Pair1
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              Value: true
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Vacuum Pump Off"
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -744,7 +934,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: VariablePointer
                       Description: {"NamespaceIndex":3,"TextId":"ToggleVariableToModifyDescription"}
-                      Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable3"
+                      Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Vacuum_Pump"
                     - Name: ArrayIndex
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -1008,7 +1198,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable4"
+                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Infeed"
                 - Name: TrueValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
@@ -1058,7 +1248,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable4"
+                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Infeed"
                 - Name: TrueValue
                   Type: BaseDataVariableType
                   DataType: Color
@@ -1081,6 +1271,84 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Pima_21CFR_Part11/Model/Message@NodeId"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: "Main Motor on"
+                      Children:
+                      - Name: KeyValueConverter1
+                        Type: ValueMapConverter
+                        Children:
+                        - Name: Source
+                          Type: BaseDataVariableType
+                          DataType: BaseDataType
+                          ReferenceType: HasSource
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Infeed"
+                        - Name: Pairs
+                          Type: BaseObjectType
+                          Children:
+                          - Name: Pair
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              Value: false
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Infeed On"
+                          - Name: Pair1
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              Value: true
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Infeed Off"
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -1104,7 +1372,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: VariablePointer
                       Description: {"NamespaceIndex":3,"TextId":"ToggleVariableToModifyDescription"}
-                      Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable4"
+                      Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Infeed"
                     - Name: ArrayIndex
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -1211,7 +1479,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable5"
+                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Rejection_Valve"
                 - Name: TrueValue
                   Type: BaseDataVariableType
                   DataType: Color
@@ -1241,7 +1509,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable5"
+                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Rejection_Valve"
                 - Name: TrueValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
@@ -1264,6 +1532,84 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Pima_21CFR_Part11/Model/Message@NodeId"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: "Main Motor on"
+                      Children:
+                      - Name: KeyValueConverter1
+                        Type: ValueMapConverter
+                        Children:
+                        - Name: Source
+                          Type: BaseDataVariableType
+                          DataType: BaseDataType
+                          ReferenceType: HasSource
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Rejection_Valve"
+                        - Name: Pairs
+                          Type: BaseObjectType
+                          Children:
+                          - Name: Pair
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              Value: false
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Rejection Valve On"
+                          - Name: Pair1
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              Value: true
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Rejection Valve Off"
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -1287,7 +1633,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: VariablePointer
                       Description: {"NamespaceIndex":3,"TextId":"ToggleVariableToModifyDescription"}
-                      Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable5"
+                      Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Rejection_Valve"
                     - Name: ArrayIndex
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -1389,7 +1735,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable6"
+                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Vibrator"
                 - Name: TrueValue
                   Type: BaseDataVariableType
                   DataType: LocalizedText
@@ -1434,7 +1780,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable6"
+                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Vibrator"
                 - Name: TrueValue
                   Type: BaseDataVariableType
                   DataType: Color
@@ -1457,6 +1803,81 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Pima_21CFR_Part11/Model/Message@NodeId"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "Main Motor on"
+                      Children:
+                      - Name: KeyValueConverter1
+                        Type: ValueMapConverter
+                        Children:
+                        - Name: Source
+                          Type: BaseDataVariableType
+                          DataType: BaseDataType
+                          ReferenceType: HasSource
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Vibrator"
+                        - Name: Pairs
+                          Type: BaseObjectType
+                          Children:
+                          - Name: Pair
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              Value: false
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Vibrator On"
+                          - Name: Pair1
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              Value: true
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Vibrator Off"
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -1480,7 +1901,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: VariablePointer
                       Description: {"NamespaceIndex":3,"TextId":"ToggleVariableToModifyDescription"}
-                      Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable6"
+                      Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Vibrator"
                     - Name: ArrayIndex
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -1574,7 +1995,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable7"
+                Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Head_Up"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -1598,7 +2019,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable7"
+                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Head_Up"
                 - Name: TrueValue
                   Type: BaseDataVariableType
                   DataType: Color
@@ -1681,6 +2102,115 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 114.0
+            - Name: MouseClickEventHandler1
+              Type: EventHandler
+              Children:
+              - Name: ListenEventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+              - Name: MethodsToCall
+                Type: BaseObjectType
+                Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Pima_21CFR_Part11/Model/Message@NodeId"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "Main Motor on"
+                      Children:
+                      - Name: KeyValueConverter1
+                        Type: ValueMapConverter
+                        Children:
+                        - Name: Source
+                          Type: BaseDataVariableType
+                          DataType: BaseDataType
+                          ReferenceType: HasSource
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Head_Up"
+                        - Name: Pairs
+                          Type: BaseObjectType
+                          Children:
+                          - Name: Pair
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              Value: false
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Head Up"
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
+              - Name: EventArguments
+                Type: MouseClickEvent
+                Children:
+                - Name: EventId
+                  Type: PropertyType
+                  DataType: ByteString
+                  Value: ""
+                - Name: EventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceNode
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceName
+                  Type: PropertyType
+                  DataType: String
+                  Value: ""
+                - Name: Time
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: ReceiveTime
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: Message
+                  Type: PropertyType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                - Name: Severity
+                  Type: PropertyType
+                  DataType: UInt16
+                  Value: 0
           - Name: Label8
             Type: Label
             Children:
@@ -1794,7 +2324,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Head up"}
+              Value: {"LocaleId":"en-US","Text":"Head Up"}
             - Name: Height
               Type: BaseVariableType
               DataType: Size
@@ -1905,7 +2435,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable8"
+                Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Head_Down"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -1933,7 +2463,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Variable8"
+                    Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Head_Down"
                 - Name: TrueValue
                   Type: BaseDataVariableType
                   DataType: Color
@@ -2011,6 +2541,115 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 114.0
+            - Name: MouseClickEventHandler1
+              Type: EventHandler
+              Children:
+              - Name: ListenEventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+              - Name: MethodsToCall
+                Type: BaseObjectType
+                Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Pima_21CFR_Part11/Model/Message@NodeId"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "Main Motor on"
+                      Children:
+                      - Name: KeyValueConverter1
+                        Type: ValueMapConverter
+                        Children:
+                        - Name: Source
+                          Type: BaseDataVariableType
+                          DataType: BaseDataType
+                          ReferenceType: HasSource
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Pima_21CFR_Part11/Model/Manual_Mode/Head_Down"
+                        - Name: Pairs
+                          Type: BaseObjectType
+                          Children:
+                          - Name: Pair
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              Value: false
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Head Down"
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
+              - Name: EventArguments
+                Type: MouseClickEvent
+                Children:
+                - Name: EventId
+                  Type: PropertyType
+                  DataType: ByteString
+                  Value: ""
+                - Name: EventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceNode
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceName
+                  Type: PropertyType
+                  DataType: String
+                  Value: ""
+                - Name: Time
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: ReceiveTime
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: Message
+                  Type: PropertyType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                - Name: Severity
+                  Type: PropertyType
+                  DataType: UInt16
+                  Value: 0
           - Name: RightMargin
             Type: BaseVariableType
             DataType: Size
@@ -2157,6 +2796,84 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Pima_21CFR_Part11/Model/Message@NodeId"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: "Main Motor on"
+                      Children:
+                      - Name: KeyValueConverter1
+                        Type: ValueMapConverter
+                        Children:
+                        - Name: Source
+                          Type: BaseDataVariableType
+                          DataType: BaseDataType
+                          ReferenceType: HasSource
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Pima_21CFR_Part11/Model/AnimationInstance/Button"
+                        - Name: Pairs
+                          Type: BaseObjectType
+                          Children:
+                          - Name: Pair
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              Value: false
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Auto Mode"
+                          - Name: Pair1
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: Boolean
+                              Value: true
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Manual Mode"
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
