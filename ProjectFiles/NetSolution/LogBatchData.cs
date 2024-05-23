@@ -16,6 +16,7 @@ using System.Data;
 using Microsoft.VisualBasic;
 using System.Globalization;
 using FTOptix.Alarm;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class LogBatchData : BaseNetLogic

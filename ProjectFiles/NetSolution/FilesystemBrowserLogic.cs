@@ -12,6 +12,7 @@ using System.Diagnostics;
 
 using FilesystemBrowserHelper;
 using FTOptix.OPCUAServer;
+using FTOptix.RAEtherNetIP;
 
 public class FilesystemBrowserLogic : BaseNetLogic
 {

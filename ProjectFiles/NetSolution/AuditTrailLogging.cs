@@ -11,6 +11,7 @@ using FTOptix.WebUI;
 using FTOptix.UI;
 using FTOptix.System;
 using FTOptix.DataLogger;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class AuditTrailLogging : BaseNetLogic

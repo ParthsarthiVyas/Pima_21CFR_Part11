@@ -21,6 +21,7 @@ using FTOptix.Report;
 using FTOptix.Recipe;
 using FTOptix.SQLiteStore;
 using FTOptix.System;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class Shutdownlogic : BaseNetLogic
@@ -38,7 +39,8 @@ public class Shutdownlogic : BaseNetLogic
     [ExportMethod]
     public void shutdownipc()
     {
-
+        AuditTrailLogging Shutdown = new AuditTrailLogging();
+       Shutdown.LogIntoAudit("System,", "System Shutdown Pressed", Session.User.BrowseName, "System");
         try
         {
             // Create a new process to run the shutdown command

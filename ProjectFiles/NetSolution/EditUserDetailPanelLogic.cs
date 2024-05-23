@@ -14,6 +14,7 @@ using FTOptix.MicroController;
 using FTOptix.System;
 using FTOptix.DataLogger;
 using FTOptix.Alarm;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class EditUserDetailPanelLogic : BaseNetLogic

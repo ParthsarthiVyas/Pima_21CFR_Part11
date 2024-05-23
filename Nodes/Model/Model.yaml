@@ -266,3 +266,28 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
+- Name: Backupmessage
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ""
+- Name: Backupmessage1
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ""
+- Name: Backupmessage2
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ""
+- Name: Backupmessage3
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ""
+- Name: RestoreDBMessage
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ""
+- File: Autobackup/Autobackup.yaml
+- Name: shutdown
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

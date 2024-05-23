@@ -12,6 +12,7 @@ using FTOptix.Core;
 using FTOptix.UI;
 using FTOptix.System;
 using FTOptix.DataLogger;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class ChildrenCounter1 : BaseNetLogic

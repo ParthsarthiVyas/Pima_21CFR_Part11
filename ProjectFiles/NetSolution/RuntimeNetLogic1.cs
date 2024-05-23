@@ -18,6 +18,7 @@ using FTOptix.Retentivity;
 using FTOptix.AuditSigning;
 using FTOptix.CommunicationDriver;
 using FTOptix.Core;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class RuntimeNetLogic1 : BaseNetLogic

@@ -129,16 +129,24 @@ Project:
    Uri: 'urn:FTOptix:Alarm'
    Module: FTOptix.Alarm
    Version: 2.0
+  36:
+   Uri: 'urn:FTOptix:RAEtherNetIP'
+   Module: FTOptix.RAEtherNetIP
+   Version: 2.1
+  37:
+   Uri: 'urn:FTOptix:RAEtherNetIP:Net'
+   Module: FTOptix.RAEtherNetIP.Net
+   Version: 2.1
  Statistics:
-  TotalNodeCount: 30788
-  Objects: 4275
-  ObjectTypes: 67
-  Variables: 26410
-  VariableTypes: 0
-  DataTypes: 0
+  TotalNodeCount: 34686
+  Objects: 4725
+  ObjectTypes: 69
+  Variables: 29852
+  VariableTypes: 2
+  DataTypes: 2
   Methods: 36
-  References: 205
+  References: 213
   ReferenceTypes: 0
-  Files: 58
+  Files: 66
  Nodes:
  - File: Nodes/Pima_21CFR_Part11.yaml

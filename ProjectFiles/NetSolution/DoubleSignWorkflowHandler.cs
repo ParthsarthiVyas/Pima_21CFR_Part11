@@ -16,6 +16,7 @@ using FTOptix.AuditSigning;
 using FTOptix.System;
 using FTOptix.DataLogger;
 using FTOptix.Alarm;
+using FTOptix.RAEtherNetIP;
 
 #endregion
 

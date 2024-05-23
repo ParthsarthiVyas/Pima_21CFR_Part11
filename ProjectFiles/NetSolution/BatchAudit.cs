@@ -19,6 +19,7 @@ using FTOptix.CommunicationDriver;
 using FTOptix.Core;
 using FTOptix.Alarm;
 using FTOptix.DataLogger;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class BatchAudit : BaseNetLogic

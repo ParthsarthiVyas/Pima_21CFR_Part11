@@ -10,6 +10,7 @@ using FTOptix.HMIProject;
 
 using FilesystemBrowserHelper;
 using FTOptix.OPCUAServer;
+using FTOptix.RAEtherNetIP;
 
 public class FilesystemBrowserDatagridLogic : BaseNetLogic
 {

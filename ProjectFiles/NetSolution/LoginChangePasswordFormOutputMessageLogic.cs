@@ -15,6 +15,7 @@ using FTOptix.Alarm;
 using FTOptix.WebUI;
 using FTOptix.System;
 using FTOptix.DataLogger;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class LoginChangePasswordFormOutputMessageLogic : BaseNetLogic

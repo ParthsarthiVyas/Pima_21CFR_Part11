@@ -3,6 +3,7 @@ using UAManagedCore;
 using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.Alarm;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class AlarmGridLogic : BaseNetLogic

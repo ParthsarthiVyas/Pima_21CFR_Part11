@@ -14,6 +14,7 @@ using FTOptix.System;
 using System.Collections.Generic;
 using System.Text;
 using FTOptix.DataLogger;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class CreateUserPanelLogic : BaseNetLogic

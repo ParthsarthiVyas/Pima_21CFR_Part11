@@ -58,7 +58,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../NetLogic/mm_dd_yyyy_clock1/hour"
+        Value: "../../../../../NetLogic/mm_dd_yyyy_clock1/minute"
     - Name: ns=3;Source5
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -125,7 +125,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../NetLogic/mm_dd_yyyy_clock1/hour"
+        Value: "../../../../../NetLogic/mm_dd_yyyy_clock1/minute"
     - Name: ns=3;Source5
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -192,7 +192,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../NetLogic/mm_dd_yyyy_clock1/hour"
+        Value: "../../../../../NetLogic/mm_dd_yyyy_clock1/minute"
     - Name: ns=3;Source5
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -259,7 +259,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../NetLogic/mm_dd_yyyy_clock1/hour"
+        Value: "../../../../../NetLogic/mm_dd_yyyy_clock1/minute"
     - Name: ns=3;Source5
       Type: BaseDataVariableType
       DataType: BaseDataType

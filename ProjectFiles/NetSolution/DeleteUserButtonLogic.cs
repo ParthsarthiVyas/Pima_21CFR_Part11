@@ -11,6 +11,7 @@ using FTOptix.AuditSigning;
 using FTOptix.Alarm;
 using FTOptix.System;
 using FTOptix.DataLogger;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class DeleteUserButtonLogic : BaseNetLogic

@@ -11,6 +11,7 @@ using FTOptix.Store;
 using FTOptix.Core;
 using FTOptix.WebUI;
 using FTOptix.Alarm;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class GetBatchInfo : BaseNetLogic

@@ -20,6 +20,7 @@ using FTOptix.MicroController;
 using FTOptix.System;
 using FTOptix.Alarm;
 using FTOptix.DataLogger;
+using FTOptix.RAEtherNetIP;
 
 #endregion
 

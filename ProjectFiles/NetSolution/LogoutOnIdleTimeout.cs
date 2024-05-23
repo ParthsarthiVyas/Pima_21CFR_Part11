@@ -20,6 +20,7 @@ using FTOptix.Recipe;
 using FTOptix.AuditSigning;
 using FTOptix.Report;
 using FTOptix.System;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class LogoutOnIdleTimeout : BaseNetLogic

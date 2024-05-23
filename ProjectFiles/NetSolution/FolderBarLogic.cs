@@ -12,6 +12,7 @@ using System.Linq;
 
 using FilesystemBrowserHelper;
 using FTOptix.OPCUAServer;
+using FTOptix.RAEtherNetIP;
 
 class Location
 {
