@@ -17,7 +17,6 @@ Children:
     - Name: WorkflowType
       Type: PropertyType
       DataType: WorkflowType
-      Value: 0
 - Name: SetTemperature
   Type: BaseDataVariableType
   DataType: Int32
@@ -72,7 +71,6 @@ Children:
 - Name: AutoMode
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: AuditSigning Signature
     Type: AuditInfo
@@ -85,4 +83,3 @@ Children:
     - Name: WorkflowType
       Type: PropertyType
       DataType: WorkflowType
-      Value: 0

@@ -20,12 +20,10 @@ Children:
     Id: g=3107f3107e7d9b6eb9cad0d55902e55b
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Settings
     Id: g=8ad381c69cb65ac892ab685676006069
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: I_O
     Id: g=6c4d36e7ea0474f87c92968416c71688
     Type: BaseDataVariableType
@@ -35,17 +33,14 @@ Children:
     Id: g=8bd7ea404a684f388747d9f59c321ece
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Reports
     Id: g=3fe6be5543ef9571422221ede9478d7a
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Usermanagement
     Id: g=3665bbc4e79c531b22ed3ff67bccdc02
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Alarm
     Id: g=f94ee24f407166233e87a2ef995b7c64
     Type: BaseDataVariableType
@@ -55,7 +50,6 @@ Children:
     Id: g=c38f555cb176bd21ca0016b26bd4f595
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: AuditSigning Signature
     Id: g=13c2401ec9b0801654bb6549f368aa50
     Type: AuditInfo
@@ -71,7 +65,6 @@ Children:
       Id: g=a43d898f9090ab4df9b7a70ab76421ad
       Type: PropertyType
       DataType: WorkflowType
-      Value: 0
 - Name: Supervisor
   Id: g=e54f5ea7dbaff13af5db8e5f07497ced
   Type: BaseObjectType
@@ -90,7 +83,6 @@ Children:
     Id: g=c1740769931f29027cd44365962a2180
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Settings
     Id: g=03dc48897998d84e2b4624587b36604a
     Type: BaseDataVariableType
@@ -115,7 +107,6 @@ Children:
     Id: g=7b5f89b10098e88537fe7be34f9f6bb5
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Alarm
     Id: g=9e373b72e7a4d8d5547e5525e21c50e9
     Type: BaseDataVariableType
@@ -125,7 +116,6 @@ Children:
     Id: g=681bd39c43e493b5dd6da16b2f1208ec
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: AuditSigning Signature
     Id: g=92c6073b1b70369cbf09535861883a98
     Type: AuditInfo
@@ -155,7 +145,6 @@ Children:
     Id: g=a460ce9c7b93813ee1344b2b4a67a749
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Settings
     Id: g=0c3fa2f275ea4ecc92b8ff3aa604c727
     Type: BaseDataVariableType
@@ -180,7 +169,6 @@ Children:
     Id: g=3d44695cc1c09098984b6ef0606f732c
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Alarm
     Id: g=cd5d182e2b292b6a530dfe1a8d294346
     Type: BaseDataVariableType
@@ -235,17 +223,14 @@ Children:
     Id: g=3da3011537e5f100896eb82b7fddcc38
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Reports
     Id: g=65427eb5530913aa1321102550dd56d8
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Usermanagement
     Id: g=c2c534d15d06db02ca4869c094cc166f
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Alarm
     Id: g=046bbd906e6cd233f3602a0b18d2e275
     Type: BaseDataVariableType
@@ -255,7 +240,6 @@ Children:
     Id: g=4316858110b8dbeccbf688782e7af150
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: AuditSigning Signature
     Id: g=76960b017a12c4b405f56ba09465ee8a
     Type: AuditInfo

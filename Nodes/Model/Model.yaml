@@ -17,7 +17,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   WriteMask: ArrayDimensions|BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel|ValueRank|ValueForVariableType
-  Value: 0
 - Name: AnimationInstance
   Type: Animation
   Children:
@@ -25,7 +24,6 @@ Children:
     Id: g=ce32d2a77bafdc992b4deaa57d2c3ca2
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Level
     Type: BaseDataVariableType
     DataType: Int32
@@ -45,35 +43,27 @@ Children:
   - Name: Level1
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: Motor1
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: Motor2
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: Motor3
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: Tap1
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: so
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Tap2
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: Tap3
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: ButtonChanged
     Type: VariableChangedEventDispatcher
     Children:
@@ -88,7 +78,6 @@ Children:
   - Name: Button
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Level
     Type: BaseDataVariableType
     DataType: Int32
@@ -98,42 +87,33 @@ Children:
   - Name: Level1
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: Motor1
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: Motor2
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: Motor3
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: Tap1
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: so
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Tap2
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: Tap3
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
 - Name: Animation1
   Type: Animation
   Children:
   - Name: Button
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Level
     Type: BaseDataVariableType
     DataType: Int32
@@ -143,35 +123,27 @@ Children:
   - Name: Level1
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: Motor1
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: Motor2
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: Motor3
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: Tap1
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: so
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Tap2
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: Tap3
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
 - File: Screen_Access/Screen_Access.yaml
 - File: Calibration/Calibration.yaml
 - Name: EncoderScalingInstance
@@ -180,7 +152,6 @@ Children:
   - Name: PPmm
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -189,13 +160,11 @@ Children:
   - Name: Button
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: EncoderScalingLogic
     Type: NetLogic
   - Name: Result
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - Name: EncoderScaling
   Id: g=5d01fcb42123c27af853aa9efdebad50
   Supertype: BaseObjectType
@@ -203,7 +172,6 @@ Children:
   - Name: PPmm
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -218,20 +186,17 @@ Children:
   - Name: Button
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: EncoderScalingLogic
     Type: NetLogic
   - Name: Result
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - Name: EncoderScaling1
   Type: EncoderScaling
   Children:
   - Name: PPmm
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -240,17 +205,14 @@ Children:
   - Name: Button
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: EncoderScalingLogic
     Type: NetLogic
   - Name: Result
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - Name: Result
   Type: BaseDataVariableType
   DataType: Int16
-  Value: 0
 - Name: Message
   Id: g=8c27beac59bd8c31f2fc2025543a574d
   Type: BaseDataVariableType
@@ -269,25 +231,45 @@ Children:
 - Name: Backupmessage
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
 - Name: Backupmessage1
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
 - Name: Backupmessage2
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
 - Name: Backupmessage3
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
 - Name: RestoreDBMessage
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
 - File: Autobackup/Autobackup.yaml
 - Name: shutdown
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: StringFormatter1
+    Type: StringFormatter
+    Children:
+    - Name: Format
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ReferenceType: HasParameter
+      Value: {"LocaleId":"en-US","Text":"D:\\{0}"}
+    - Name: ns=3;Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Report/Path/Audit_report"

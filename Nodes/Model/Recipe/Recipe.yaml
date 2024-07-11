@@ -10,12 +10,10 @@ Children:
     Id: g=7766213ebf81fa01c787589289f1850c
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 0
   - Name: RecSetTemp
     Id: g=c5a007fb583dad393e0e34e45664092b
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 0
     Children:
     - Name: AuditSigning Signature
       Id: g=8c8548c4b93e63beb69a534fa729bc08
@@ -32,12 +30,10 @@ Children:
         Id: g=96936bd0fbda3a73f45a4704e928e4f8
         Type: PropertyType
         DataType: WorkflowType
-        Value: 0
   - Name: RecSpeedFactor
     Id: g=2d0950fad6821b0deec96168c93da3e9
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
   - Name: RecProdName
     Id: g=719bd911421c3d028070518f91838f18
     Type: BaseDataVariableType
@@ -47,7 +43,6 @@ Children:
     Id: g=e896472094a667f48eb3bd07622373a5
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
     Children:
     - Name: AuditSigning Signature
       Id: g=63bc59ed3f23525fa5eae44983316ea1
@@ -64,4 +59,3 @@ Children:
         Id: g=b921404e6665dfa1d6c2e235bc2ec29e
         Type: PropertyType
         DataType: WorkflowType
-        Value: 0

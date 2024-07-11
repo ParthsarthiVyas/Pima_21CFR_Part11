@@ -19,31 +19,24 @@ Children:
   - Name: day
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: month
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: year
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: hour
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: minute
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: second
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: yy
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: Date1
     Type: BaseDataVariableType
     DataType: String
@@ -55,8 +48,6 @@ Children:
   - Name: Time
     Type: BaseDataVariableType
     DataType: DateTime
-    Value: "1601-01-01T00:00:00.0000000"
   - Name: Dateonly
     Type: BaseDataVariableType
     DataType: String
-    Value: ""

@@ -117,7 +117,6 @@ Children:
       - Name: Color
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -125,7 +124,6 @@ Children:
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
       - Name: PressedBorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -144,15 +142,12 @@ Children:
       - Name: PressedBorderColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: PressedTextColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: Color
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -217,7 +212,6 @@ Children:
       - Name: FontFamily
         Type: BaseDataVariableType
         DataType: Font
-        Value: ""
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -262,7 +256,6 @@ Children:
       - Name: IconUsesTextColor
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -281,7 +274,7 @@ Children:
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
-        Value: -1.0
+        Value: 12.0
       - Name: HeaderFontSize
         Type: BaseDataVariableType
         DataType: Size
@@ -297,7 +290,6 @@ Children:
       - Name: VerticalLineColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: HorizontalLineColor
         Type: BaseDataVariableType
         DataType: Color
@@ -375,7 +367,6 @@ Children:
   - Name: FocusColor
     Type: BaseDataVariableType
     DataType: Color
-    Value: "#00000000"
   - Name: AccentBorderColor
     Type: BaseDataVariableType
     DataType: Color
@@ -438,7 +429,6 @@ Children:
   - Name: Caption
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -448,12 +438,10 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     ModellingRule: Optional
-    Value: false
   - Name: AlwaysOnTop
     Type: BaseDataVariableType
     DataType: Boolean
     ModellingRule: Optional
-    Value: false
   - Name: Mainpage
     Type: PanelLoader
     Children:
@@ -470,7 +458,6 @@ Children:
       Type: NodePointer
       DataType: NodeId
       AccessLevel: Read
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
       Children:
       - Name: Kind
         Type: PropertyType
@@ -490,12 +477,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -510,7 +495,6 @@ Children:
       Type: BaseDataVariableType
       DataType: NodeId
       ValueRank: ScalarOrOneDimension
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Class: Reference
       Target: ns=5;i=478
   - Name: LogoutOnIdleTimeout
@@ -545,7 +529,6 @@ Children:
       - Name: ObjectPointer
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: Kind
           Type: PropertyType
@@ -597,7 +580,6 @@ Children:
       - Name: ObjectPointer
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: Kind
           Type: PropertyType
@@ -630,7 +612,6 @@ Children:
           DataType: NodeId
           Description: {"NamespaceIndex":5,"TextId":"ChangePanelAliasNodeDescription"}
           ValueRank: ScalarOrOneDimension
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: IdleTimeoutEventHandler1
         Type: EventHandler
         Children:
@@ -642,7 +623,6 @@ Children:
           Type: NodePointer
           DataType: NodeId
           ReferenceType: HasProperty
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: Kind
             Type: PropertyType
@@ -652,11 +632,9 @@ Children:
             Type: PropertyType
             DataType: NodePointerNodeClass
             ModellingRule: Optional
-            Value: 0
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: ""
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -671,27 +649,21 @@ Children:
           - Name: EventId
             Type: PropertyType
             DataType: ByteString
-            Value: ""
           - Name: EventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: SourceNode
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: SourceName
             Type: PropertyType
             DataType: String
-            Value: ""
           - Name: Time
             Type: PropertyType
             DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
           - Name: ReceiveTime
             Type: PropertyType
             DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
           - Name: LocalTime
             Type: PropertyType
             DataType: TimeZoneDataType
@@ -699,35 +671,29 @@ Children:
           - Name: Message
             Type: PropertyType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
-            Value: 0
           - Name: ConditionClassId
             Type: PropertyType
             DataType: NodeId
             ModellingRule: Optional
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: ConditionClassName
             Type: PropertyType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: ConditionSubClassId
             Type: PropertyType
             DataType: NodeId
             ModellingRule: Optional
             ValueRank: OneDimension
             ArrayDimensions: [0]
-            Value: []
           - Name: ConditionSubClassName
             Type: PropertyType
             DataType: LocalizedText
             ModellingRule: Optional
             ValueRank: OneDimension
             ArrayDimensions: [0]
-            Value: []
   - Name: RuntimeNetLogic7
     Type: NetLogic
 - File: Screens/Screens.yaml

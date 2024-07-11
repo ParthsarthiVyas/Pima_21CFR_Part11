@@ -15,7 +15,6 @@ Children:
     Id: g=dd66d75946b5b6493e2e770af51d76d8
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Password_Creation_Date
     Id: g=7124406a75fdb9e9e77abaad76907ea5
     Type: BaseDataVariableType
@@ -25,7 +24,6 @@ Children:
     Id: g=c1afef9a7656f035fe5db84cf23a95fb
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: User_Active
     Id: g=f6d334aa2f84c898d15a0b88f52c048b
     Type: BaseDataVariableType
@@ -68,7 +66,6 @@ Children:
     Id: g=4320c0288890b651987a14ba418ae73a
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Password_Creation_Date
     Id: g=8b2fe5c8351e2585156d3f0263feff72
     Type: BaseDataVariableType
@@ -78,7 +75,6 @@ Children:
     Id: g=d6356572512d61b497960b16ffb678b5
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: User_Active
     Id: g=ed0293456930c706f66f86258fd36db7
     Type: BaseDataVariableType
@@ -90,7 +86,6 @@ Children:
     DataType: Password
     ReferenceType: HasProperty
     AccessLevel: Read
-    Value: ""
     Children:
     - Name: Hash
       Id: g=fa2b0d19e9c39d8d2988a67cd3d7e42f

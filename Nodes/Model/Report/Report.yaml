@@ -17,7 +17,6 @@ Children:
 - Name: Auditbytime
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
   Children:
   - Name: StringFormatter1
     Type: StringFormatter

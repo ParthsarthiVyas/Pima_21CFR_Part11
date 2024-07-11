@@ -10,7 +10,6 @@ Children:
   - Name: ACC
     Type: RAEtherNetIPTag
     DataType: Int32
-    Value: 0
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -19,7 +18,6 @@ Children:
   - Name: DN
     Type: RAEtherNetIPTag
     DataType: Boolean
-    Value: false
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -28,7 +26,6 @@ Children:
   - Name: EN
     Type: RAEtherNetIPTag
     DataType: Boolean
-    Value: false
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -37,7 +34,6 @@ Children:
   - Name: PRE
     Type: RAEtherNetIPTag
     DataType: Int32
-    Value: 0
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -46,7 +42,6 @@ Children:
   - Name: TT
     Type: RAEtherNetIPTag
     DataType: Boolean
-    Value: false
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -61,7 +56,6 @@ Children:
   - Name: ACC
     Type: RAEtherNetIPTag
     DataType: Int32
-    Value: 0
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -70,7 +64,6 @@ Children:
   - Name: CD
     Type: RAEtherNetIPTag
     DataType: Boolean
-    Value: false
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -79,7 +72,6 @@ Children:
   - Name: CU
     Type: RAEtherNetIPTag
     DataType: Boolean
-    Value: false
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -88,7 +80,6 @@ Children:
   - Name: DN
     Type: RAEtherNetIPTag
     DataType: Boolean
-    Value: false
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -97,7 +88,6 @@ Children:
   - Name: OV
     Type: RAEtherNetIPTag
     DataType: Boolean
-    Value: false
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -106,7 +96,6 @@ Children:
   - Name: PRE
     Type: RAEtherNetIPTag
     DataType: Int32
-    Value: 0
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -115,7 +104,6 @@ Children:
   - Name: UN
     Type: RAEtherNetIPTag
     DataType: Boolean
-    Value: false
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType

@@ -69,7 +69,6 @@ Children:
         - Name: SourceName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: WorkflowType
           Type: StoreColumn
           DataType: String
@@ -81,52 +80,41 @@ Children:
         - Name: ClientUserId
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: ClientUserNote
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: SecondClientUserNote
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: EventType
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: SecondClientUserId
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Message
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: LocalTimeStamp
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: Dateformatted
           Type: StoreColumn
           DataType: DateString
-          Value: ""
   - Name: MaxColumnNameLength
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus
@@ -148,24 +136,20 @@ Children:
   - Name: Password
     Type: PropertyType
     DataType: Password
-    Value: ""
   - Name: MaxColumnNameLength
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus
@@ -235,27 +219,21 @@ Children:
         - Name: Name
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /RecSetSpeed
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /RecSetTemp
           Type: StoreColumn
           DataType: UInt32
-          Value: 0
         - Name: /RecSpeedFactor
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /RecProdName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /RecipeExportImportPath
           Type: StoreColumn
           DataType: String
-          Value: ""
   - Name: Type
     Type: PropertyType
     DataType: DBMSType
@@ -267,24 +245,20 @@ Children:
   - Name: Password
     Type: PropertyType
     DataType: Password
-    Value: ""
   - Name: MaxColumnNameLength
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus
@@ -355,7 +329,6 @@ Children:
         - Name: Name
           Type: StoreColumn
           DataType: String
-          Value: ""
   - Class: Reference
     Target: ns=29;i=30
     Direction: Forward
@@ -366,19 +339,16 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus
@@ -445,59 +415,45 @@ Children:
         - Name: LocalTimeStamp
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: BatchNumber
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: BatchStartTime
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: BatchStopTime
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: ProductName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Username
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: TotalCounts
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: RejectCounts
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: GoodCounts
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: BatchSize
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: Recipename
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Companyname
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: EquipmentName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: EquipmentId
           Type: StoreColumn
           DataType: String
-          Value: ""
   - Class: Reference
     Target: ns=29;i=30
     Direction: Forward
@@ -508,19 +464,16 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus
@@ -587,43 +540,33 @@ Children:
         - Name: ActiveState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: AckedState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: ConfirmedState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: ConditionName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: EnabledState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: SourceName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Time
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: 'Message_en-US'
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Severity
           Type: StoreColumn
           DataType: UInt16
-          Value: 0
         - Name: LocalTime
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
   - Class: Reference
     Target: ns=29;i=30
     Direction: Forward
@@ -634,19 +577,16 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus

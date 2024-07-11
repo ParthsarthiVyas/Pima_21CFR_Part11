@@ -4,8 +4,6 @@ Children:
 - Name: Emergency_Alarm
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
 - Name: Airpressure_low_Alarm
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false

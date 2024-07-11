@@ -60,7 +60,6 @@ Children:
   - Name: InvalidLoginAttemptLimit
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -74,7 +73,6 @@ Children:
   - Name: PasswordExpiryAlertDays
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink

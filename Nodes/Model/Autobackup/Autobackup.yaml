@@ -19,7 +19,6 @@ Children:
 - Name: Autobackuppathbatch
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
   Children:
   - Name: StringFormatter1
     Type: StringFormatter
@@ -95,7 +94,6 @@ Children:
 - Name: AutobackuppathAudit
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
   Children:
   - Name: StringFormatter1
     Type: StringFormatter
@@ -171,7 +169,6 @@ Children:
 - Name: AutobackuppathAlarm
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
   Children:
   - Name: StringFormatter1
     Type: StringFormatter
@@ -247,7 +244,6 @@ Children:
 - Name: AutobackuppathRecipe
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
   Children:
   - Name: StringFormatter1
     Type: StringFormatter

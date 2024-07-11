@@ -86,7 +86,6 @@ Children:
   Id: g=7fbfc1c4d7263c00b3a10f439bcf8771
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
 - Name: AutoLogOutTime
   Id: g=4e26b32aeb1d342de6bbebed1bb691d6
   Type: BaseDataVariableType
@@ -108,12 +107,10 @@ Children:
       Id: g=761f9faa215cc2ca163878b9d4a6723c
       Type: PropertyType
       DataType: WorkflowType
-      Value: 0
 - Name: MinPasswordAge
   Id: g=3c83ecd978e8cedcc432301c6fb0dc44
   Type: BaseDataVariableType
   DataType: UInt16
-  Value: 0
   Children:
   - Name: AuditSigning Signature
     Id: g=f29d39be7440f2f04b07cefaa8f045c8
@@ -130,12 +127,10 @@ Children:
       Id: g=c2927611206bcba81e3293088d6d4aeb
       Type: PropertyType
       DataType: WorkflowType
-      Value: 0
 - Name: MaxPasswordAge
   Id: g=3f7817fc6e0abb8f2daf3c418536b6c8
   Type: BaseDataVariableType
   DataType: UInt16
-  Value: 0
   Children:
   - Name: AuditSigning Signature
     Id: g=3f4ce9b148c22c1e765be3b8ff67ddd7
@@ -152,12 +147,10 @@ Children:
       Id: g=62dbecc6936305852f2b954c18eee7a7
       Type: PropertyType
       DataType: WorkflowType
-      Value: 0
 - Name: InvalidLoginAttempt
   Id: g=93b293dd6dc4a1c2e114556b69d1e1e2
   Type: BaseDataVariableType
   DataType: UInt16
-  Value: 0
   Children:
   - Name: AuditSigning Signature
     Id: g=d36c0fb65ade732e9dbc10c2468010f5
@@ -174,12 +167,10 @@ Children:
       Id: g=fc8bef0f7cf82932fc43de76e2f0426d
       Type: PropertyType
       DataType: WorkflowType
-      Value: 0
 - Name: PasswordExpiryDays
   Id: g=69f4d20eedb5b279b29b79d4ed715195
   Type: BaseDataVariableType
   DataType: UInt16
-  Value: 0
   Children:
   - Name: AuditSigning Signature
     Id: g=f21a1745e098dfd3ef12369058277e36
@@ -196,12 +187,10 @@ Children:
       Id: g=1bd458716135e59ae9720f7149514db8
       Type: PropertyType
       DataType: WorkflowType
-      Value: 0
 - Name: EnforcePasswordHistory
   Id: g=0866a56ad3dceb034de8bf9230508198
   Type: BaseDataVariableType
   DataType: UInt16
-  Value: 0
   Children:
   - Name: AuditSigning Signature
     Id: g=8d52e5af4b55a8df63048172bc92b4ee
@@ -218,12 +207,10 @@ Children:
       Id: g=cd7ac4452c08b26569ff1a7adc8ec42b
       Type: PropertyType
       DataType: WorkflowType
-      Value: 0
 - Name: MinPasswordLength
   Id: g=c122dc4d72fb0402c6a2ad4e55a3b6d9
   Type: BaseDataVariableType
   DataType: UInt16
-  Value: 0
   Children:
   - Name: AuditSigning Signature
     Id: g=24008898af0ea6ef819d9316ce93673d
@@ -240,4 +227,3 @@ Children:
       Id: g=976f604c8f2ead264890ba9fdb422096
       Type: PropertyType
       DataType: WorkflowType
-      Value: 0

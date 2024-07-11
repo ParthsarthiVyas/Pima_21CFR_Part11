@@ -11,19 +11,15 @@ Children:
     - Name: RecSetSpeed
       Type: BaseDataVariableType
       DataType: Int16
-      Value: 0
     - Name: RecSetTemp
       Type: BaseDataVariableType
       DataType: UInt32
-      Value: 0
     - Name: RecSpeedFactor
       Type: BaseDataVariableType
       DataType: Float
-      Value: 0.0
     - Name: RecProdName
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
   - Class: Reference
     Target: ns=23;i=27
     Direction: Forward
@@ -89,16 +85,12 @@ Children:
     - Name: RecSetSpeed
       Type: BaseDataVariableType
       DataType: Int16
-      Value: 0
     - Name: RecSetTemp
       Type: BaseDataVariableType
       DataType: UInt32
-      Value: 0
     - Name: RecSpeedFactor
       Type: BaseDataVariableType
       DataType: Float
-      Value: 0.0
     - Name: RecProdName
       Type: BaseDataVariableType
       DataType: String
-      Value: ""

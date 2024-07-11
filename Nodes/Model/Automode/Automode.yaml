@@ -4,7 +4,6 @@ Children:
 - Name: Level
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -18,7 +17,6 @@ Children:
 - Name: Level1
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -33,7 +31,6 @@ Children:
   Id: g=f647980d0f8660bb5a0de24ef5e0791e
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -47,7 +44,6 @@ Children:
 - Name: Motor1
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -61,7 +57,6 @@ Children:
 - Name: Motor2
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -75,7 +70,6 @@ Children:
 - Name: Motor3
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -89,7 +83,6 @@ Children:
 - Name: Valve1
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -103,7 +96,6 @@ Children:
 - Name: Valve2
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -117,7 +109,6 @@ Children:
 - Name: Tap1
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -131,7 +122,6 @@ Children:
 - Name: Tap2
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink

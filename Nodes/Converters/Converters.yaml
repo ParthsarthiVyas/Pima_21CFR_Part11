@@ -10,7 +10,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     ReferenceType: HasSource
-    Value: false
 - Name: ExpressionEvaluator1
   Id: g=c8a3483e48971f56e9c0f0a7af86db8e
   Supertype: ExpressionEvaluator
@@ -21,10 +20,8 @@ Children:
     DataType: DynamicLinkMode
     ReferenceType: HasComponent
     ModellingRule: Optional
-    Value: 0
   - Name: Expression
     Type: BaseDataVariableType
     DataType: String
     ReferenceType: HasParameter
     ModellingRule: Optional
-    Value: ""

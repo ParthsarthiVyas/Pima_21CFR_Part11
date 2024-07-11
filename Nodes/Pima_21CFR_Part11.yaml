@@ -31,7 +31,6 @@ Children:
   - Name: AuthenticationMode
     Type: BaseDataVariableType
     DataType: AuthenticationMode
-    Value: 0
 - Name: PasswordPolicy
   Type: PasswordPolicy
   Children:
@@ -66,7 +65,6 @@ Children:
   - Name: MinimumPasswordAge
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink

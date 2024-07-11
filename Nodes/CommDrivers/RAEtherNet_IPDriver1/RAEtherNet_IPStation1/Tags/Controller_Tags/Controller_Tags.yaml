@@ -4,7 +4,6 @@ Children:
 - Name: MOTOR_1
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -13,7 +12,6 @@ Children:
 - Name: MOTOR_2
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -22,7 +20,6 @@ Children:
 - Name: VALVE_1
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -31,7 +28,6 @@ Children:
 - Name: VALVE_2
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -40,7 +36,6 @@ Children:
 - Name: MOTOR_3
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType

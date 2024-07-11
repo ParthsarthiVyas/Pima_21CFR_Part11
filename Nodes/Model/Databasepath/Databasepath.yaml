@@ -4,7 +4,6 @@ Children:
 - Name: BachDB_Path
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
   Children:
   - Name: StringFormatter1
     Type: StringFormatter
@@ -71,7 +70,6 @@ Children:
 - Name: AuditDB_Path
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
   Children:
   - Name: StringFormatter1
     Type: StringFormatter
@@ -138,7 +136,6 @@ Children:
 - Name: AlarmDB_Path
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
   Children:
   - Name: StringFormatter1
     Type: StringFormatter
@@ -205,7 +202,6 @@ Children:
 - Name: RecipeDB_Path
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
   Children:
   - Name: StringFormatter1
     Type: StringFormatter
@@ -272,4 +268,3 @@ Children:
 - Name: DB_Restore
   Type: BaseDataVariableType
   DataType: String
-  Value: ""

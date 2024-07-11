@@ -4,25 +4,19 @@ Children:
 - Name: BSL
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
 - Name: PPR
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
 - Name: GR
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
 - Name: GR1
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
 - Name: PPmm
   Id: g=3bf0be565b148d9b5aef7cd0ced42fdb
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
 - Name: Suggest
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
